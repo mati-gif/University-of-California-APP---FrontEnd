@@ -1,0 +1,331 @@
+.Optimus-div{
+    min-height: 100vh;
+    border: 2px solid #d78;
+}
+.optimus-h2{
+    border: 2px solid #54f;
+    text-align: center;
+    margin-top: 10px;
+    /* color: #ffffff; */
+}
+
+.follow-div{
+    border: 3px dotted #5af;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .follow {
+    height: 75vh;
+    border: 2px solid #4fd;
+    width: 100%;
+    display: flex; /* Coloca las tarjetas en fila */
+    flex-wrap: wrap; /* Permite que las tarjetas se muevan a la siguiente fila si no caben en una sola */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 30px;
+  }
+
+
+
+
+
+
+
+
+
+  /* From Uiverse.io by Rodrypaladin */ 
+.card-follow {
+    width: 400px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: 3px solid #6a6;
+  }
+  
+  .card-follow::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    bottom: 15px;
+    right: 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transform: rotate(5deg);
+    transition: all 0.1s ease-in;
+  }
+  
+  .card-follow::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    bottom: 15px;
+    left: 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transform: rotate(-5deg);
+    transition: all 0.1s ease-in;
+  }
+  
+  .card-follow:hover:before, .card-follow:hover:after {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card-follow:hover:before {
+    transform: rotate(-8deg);
+  }
+  
+  .card-follow:hover:after {
+    transform: rotate(8deg);
+  }
+  
+  .card__img-follow {
+    /* position: relative; */
+    /* background: #FFFFFF; */
+    background: linear-gradient(315deg, #68aeff, #0032a6);
+    width: 100%;
+    height: 175px;
+    border: 3px solid #fad;
+    border-radius: 8px;
+    
+  }
+  
+  /* .card__span-follow {
+    cursor: pointer;
+    font-size: 11px;
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    padding: 3px 7px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease-in;
+    user-select: none;
+  } */
+  
+  /* .card__span-follow:hover {
+    transform: translateX(5px);
+  } */
+  
+  .card-int-follow {
+    padding: 20px 0 0 0;
+  }
+  
+  .card-int__title-follow {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .card-int__button-follow {
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    padding: 5px 20px;
+    width: 50%;
+    background-color: rgb(238, 246, 255);
+    border: none;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.1s ease-in;
+    user-select: none;
+  }
+  
+  .card-int__button-follow:active {
+    box-shadow: 0px 0px 15px rgba(0, 119, 255, 0.5);
+  }
+  
+  .card-int__button-follow:hover::before {
+    animation: effect_two 0.4s 1;
+  }
+  
+  .card-int__button-follow::before {
+    content: 'More for this article';
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: rgb(0,133,255);
+    background: linear-gradient(146deg, #0032a6 0%, #68aeff 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-99%);
+    z-index: 1;
+    animation: effect_one 10s infinite;
+  }
+  
+  .card-int__button-follow:hover::before {
+    transform: translateX(0%);
+  }
+  
+  .excerpt-follow {
+    font-size: 18px;
+  }
+  
+  @keyframes effect_one {
+    0% {
+      transform: translateX(-99%);
+    }
+  
+    25% {
+      transform: translateX(-90%);
+    }
+  
+    50% {
+      transform: translateX(-80%);
+    }
+  
+    75% {
+      transform: translateX(-95%);
+    }
+  
+    100% {
+      transform: translateX(-99%);
+    }
+  }
+  
+  @keyframes effect_two {
+    to {
+      transform: translateX(-1%);
+    }
+  
+    from {
+      transform: translateX(-99%);
+    }
+  }
+
+
+
+/*Redes Sociales*/
+
+.redes{
+    border: 3px solid #54f;
+    height: 200px;
+}
+
+
+/* From Uiverse.io by MijailVillegas */ 
+#redes-card {
+    max-width: fit-content;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    backdrop-filter: blur(15px);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.192),
+      inset 0 0 5px rgba(255, 255, 255, 0.274), 0 5px 5px rgba(0, 0, 0, 0.164);
+    transition: 0.5s;
+    background-color: #4fd;
+  }
+  
+  #redes-card:hover {
+    animation: ease-out 5s;
+    background: rgba(173, 173, 173, 0.05);
+  }
+  
+  #redes-card ul {
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  #redes-card ul li {
+    cursor: pointer;
+  }
+  
+  .svg {
+    transition: all 0.3s;
+    /* if you find some problems change w - h : 30px*/
+    padding: 1rem;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    color: rgb(255, 174, 0);
+    fill: currentColor;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3),
+      inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.164);
+  }
+  
+  .text {
+    opacity: 0;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s;
+    color: rgb(255, 174, 0);
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    z-index: 9999;
+    box-shadow: -5px 0 1px rgba(153, 153, 153, 0.2),
+      -10px 0 1px rgba(153, 153, 153, 0.2),
+      inset 0 0 20px rgba(255, 255, 255, 0.3),
+      inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.082);
+  }
+  
+  /*isometric prooyection*/
+  .iso-pro {
+    transition: 0.5s;
+  }
+  .iso-pro:hover a > .svg {
+    transform: translate(15px, -15px);
+    border-radius: 100%;
+  }
+  
+  .iso-pro:hover .text {
+    opacity: 1;
+    transform: translate(25px, -2px) skew(-5deg);
+  }
+  
+  .iso-pro:hover .svg {
+    transform: translate(5px, -5px);
+  }
+  
+  .iso-pro span {
+    opacity: 0;
+    position: absolute;
+    color: #1877f2;
+    border-color: #1877f2;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3),
+      inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.164);
+    border-radius: 50%;
+    transition: all 0.3s;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .iso-pro:hover span {
+    opacity: 1;
+  }
+  
+  .iso-pro:hover span:nth-child(1) {
+    opacity: 0.2;
+  }
+  
+  .iso-pro:hover span:nth-child(2) {
+    opacity: 0.4;
+    transform: translate(5px, -5px);
+  }
+  
+  .iso-pro:hover span:nth-child(3) {
+    opacity: 0.6;
+    transform: translate(10px, -10px);
+  }
+  
+
+
+

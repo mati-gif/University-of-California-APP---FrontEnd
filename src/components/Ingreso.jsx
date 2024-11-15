@@ -66,11 +66,11 @@ export default function Ingreso() {
                             <SwiperSlide style={{ textAlign: "center", fontSize: "18px", display: "flex", justifyContent: "center", alignItems: "center", border: "3px dotted #789" }}>
                                 <div class="magic-card">
                                     <div class="magic-image">
-                                        <p class='magic-p'>Headquarters</p>
+                                        <p class='magic-p'>Scholarships</p>
                                     </div>
                                     <div class="magic-content">
                                         <p class="magic-title2">
-                                            Headquarters
+                                        Scholarships
                                         </p>
                                         <button class="learn-more">
                                             <span class="circle" aria-hidden="true">

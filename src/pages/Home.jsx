@@ -104,6 +104,8 @@ import CarreerCarouselHome from "./CarreerCarouselHome";
 import SedesHome from "../components/SedesHome";
 import TheUniversity from "../components/TheUniversity";
 import Community from "../components/Community";
+import Ingreso from "../components/Ingreso";
+import FollowUs from "../components/FollowUs";
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function Home() {
@@ -562,6 +564,9 @@ function Home() {
             <SedesHome/>
             <Community/>
             <TheUniversity/>
+            <Ingreso/>
+            <FollowUs/>
+
 
         </>
     );

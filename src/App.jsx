@@ -11,6 +11,7 @@ import TheUniversity from './components/TheUniversity'
 import MoreHistoyOfUniversity from './pages/MoreHistoyOfUniversity'
 import Community from './components/Community'
 import Ingreso from './components/Ingreso'
+import FollowUs from './components/FollowUs'
 // import './App.css'
 
 function App() {
@@ -24,7 +25,6 @@ function App() {
     {/* <Register/>*/}
 
     {/* <MoreHistoyOfUniversity/> */}
-<Ingreso/>
 
     </>
   )

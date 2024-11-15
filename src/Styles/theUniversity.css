@@ -1,0 +1,198 @@
+#div-principal {
+  border: 2px solid yellowgreen;
+  min-height: 50vh;
+}
+
+
+/* styles.css */
+.unicH2 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+  text-align: center; /* text-center */
+  color: #003876; /* text-[#003876] */
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+.second-div {
+  display: flex; /* flex */
+  flex-wrap: nowrap; /* flex-nowrap */
+  justify-content: space-between; /* justify-between */
+  align-items: center; /* items-center */
+  overflow-x: auto; /* overflow-x-auto */
+}
+
+.div-carreras {
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  column-gap: 1rem; /* space-x-4 */
+  min-width: max-content; /* min-w-max */
+}
+
+.book {
+  width: 2rem; /* w-8 */
+  height: 2rem; /* h-8 */
+  color: #003876; /* text-[#003876] */
+  flex-shrink: 0; /* flex-shrink-0 */
+}
+
+.div_secundario-carreras {
+  display: flex; /* flex */
+  flex-direction: column; /* flex-col */
+}
+
+.span-carreras {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700; /* font-bold */
+  color: #003876; /* text-[#003876] */
+}
+
+.p-carreras {
+  font-size: 0.75rem; /* text-xs */
+  color: #4b5563; /* text-gray-700 */
+  max-width: 150px; /* max-w-[150px] */
+}
+
+.div-alumnos {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Equivalent to space-x-4 */
+  min-width: max-content;
+}
+
+.planilla {
+  width: 2rem; /* Equivalent to w-8 (8 * 0.25rem) */
+  height: 2rem; /* Equivalent to h-8 (8 * 0.25rem) */
+  color: #003876; /* Equivalent to text-[#003876] */
+  flex-shrink: 0; /* Equivalent to flex-shrink-0 */
+}
+
+.div_secundario-alumnos {
+  display: flex;
+  flex-direction: column;
+}
+
+.span-alumnos {
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-weight: bold; /* Equivalent to font-bold */
+  color: #003876; /* Equivalent to text-[#003876] */
+}
+
+.p-alumnos {
+  font-size: 0.75rem; /* Equivalent to text-xs */
+  color: #4a4a4a; /* Equivalent to text-gray-700 (color en el gris de Tailwind) */
+  max-width: 150px; /* Equivalent to max-w-[150px] */
+}
+
+.div-docentes {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Equivalent to space-x-4 (1rem = 16px) */
+  min-width: max-content;
+}
+
+.archivos {
+  width: 2rem; /* Equivalent to w-8 (8 * 0.25rem) */
+  height: 2rem; /* Equivalent to h-8 (8 * 0.25rem) */
+  color: #003876; /* Equivalent to text-[#003876] */
+  flex-shrink: 0; /* Equivalent to flex-shrink-0 */
+}
+.div_secundario-archivos {
+  display: flex;
+  flex-direction: column;
+}
+
+.span-docentes {
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-weight: bold; /* Equivalent to font-bold */
+  color: #003876; /* Equivalent to text-[#003876] */
+}
+.p-docentes {
+  font-size: 0.75rem; /* Equivalent to text-xs */
+  color: #4a4a4a; /* Equivalent to text-gray-700 */
+  max-width: 150px; /* Equivalent to max-w-[150px] */
+}
+
+.div-graduados {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Equivalent to space-x-4 (1rem = 16px) */
+  min-width: max-content;
+}
+.gorro {
+  width: 2rem; /* Equivalent to w-8 (8 * 0.25rem) */
+  height: 2rem; /* Equivalent to h-8 (8 * 0.25rem) */
+  color: #003876; /* Equivalent to text-[#003876] */
+  flex-shrink: 0; /* Equivalent to flex-shrink-0 */
+}
+
+.div_secundario-graduados {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span-graduados {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: bold; /* Equivalent to font-bold */
+    color: #003876; /* Equivalent to text-[#003876] */
+  }
+
+  .p-graduados {
+    font-size: 0.75rem; /* Equivalent to text-xs */
+    color: #4a4a4a; /* Equivalent to text-gray-700 */
+    max-width: 150px; /* Equivalent to max-w-[150px] */
+  }
+/* Media query para el tamaño de texto en pantallas medianas */
+@media (min-width: 768px) {
+  .unicH2 {
+    font-size: 1.875rem; /* md:text-3xl */
+  }
+
+  .book {
+    width: 2.5rem; /* md:w-10 */
+    height: 2.5rem; /* md:h-10 */
+  }
+
+  .span-carreras {
+    font-size: 1.875rem; /* md:text-3xl */
+  }
+
+  .p-carreras {
+    font-size: 0.875rem; /* md:text-sm */
+  }
+
+  .planilla {
+    width: 2.5rem; /* Equivalent to md:w-10 (10 * 0.25rem) */
+    height: 2.5rem; /* Equivalent to md:h-10 (10 * 0.25rem) */
+  }
+
+  .span-alumnos {
+    font-size: 1.875rem; /* Equivalent to md:text-3xl */
+  }
+
+  .p-alumnos {
+    font-size: 0.875rem; /* Equivalent to md:text-sm */
+  }
+
+  .archivos {
+    width: 2.5rem; /* Equivalent to md:w-10 (10 * 0.25rem) */
+    height: 2.5rem; /* Equivalent to md:h-10 (10 * 0.25rem) */
+  }
+  .span-docentes {
+    font-size: 1.875rem; /* Equivalent to md:text-3xl */
+  }
+  .p-docentes {
+    font-size: 0.875rem; /* Equivalent to md:text-sm */
+  }
+  .gorro {
+    width: 2.5rem; /* Equivalent to md:w-10 (10 * 0.25rem) */
+    height: 2.5rem; /* Equivalent to md:h-10 (10 * 0.25rem) */
+  }
+
+  .span-graduados {
+    font-size: 1.875rem; /* Equivalent to md:text-3xl */
+  }
+
+  .p-graduados {
+    font-size: 0.875rem; /* Equivalent to md:text-sm */
+  }
+}

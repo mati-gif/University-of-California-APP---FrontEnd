@@ -1,0 +1,12 @@
+/* Estilo personalizado para el navbar */
+/* Efecto de hover: aparece la barra blanca debajo del texto */
+/* Efecto de hover: aparece la barra blanca debajo del texto */
+.hover-effect:hover {
+    border-bottom: 2px solid white; /* Barra blanca debajo del texto */
+}
+
+/* Barra blanca activada: resalta el enlace activo */
+.nav-link.active {
+    border-bottom: 2px solid white; /* Barra blanca debajo del texto */
+}
+

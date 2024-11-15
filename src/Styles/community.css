@@ -1,0 +1,83 @@
+.super-div{
+    border: 2px solid #61a;
+    min-height: 80vh;
+    background-color: #74B0DC;
+}
+#super-h2{
+    border: 2px solid #54f;
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.community-div{
+    border: 3px dotted #5af;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+
+}
+.community{
+    height: 50vh;
+    border: 2px solid #4fd;
+    width: 100%;
+    display: flex;          /* Coloca las tarjetas en fila */
+    flex-wrap: wrap;        /* Permite que las tarjetas se muevan a la siguiente fila si no caben en una sola */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 30px;
+
+
+}
+
+
+
+
+/* Container div */
+.div-raro {
+    transform: scale(1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    height: 19rem; /* h-52 */
+    width: 16rem; /* w-56 */
+    background-color: #ffffff; /* bg-white */
+    border: 2px solid #5af;
+}
+
+.div-raro:hover {
+    transform: scale(1.1); /* hover:scale-110 */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* hover:shadow-xl */
+}
+
+/* Gradient background div */
+.div-raro1 {
+    background: linear-gradient(to bottom right, #ffe4e6, #e9d5ff, #e9d5ff); /* from-rose-100 via-purple-200 to-purple-200 */
+    margin: 0.5rem; /* m-2 */
+    height: 50%; /* h-3/6 */
+    border-radius: 0.5rem; /* rounded-lg */
+
+}
+
+.div-raro1 img{
+    object-fit: cover;
+    height: 100%; /* h-3/6 */
+    width: 100%;
+    border-radius: 0.5rem; /* rounded-lg */
+
+}
+
+/* Content div */
+.div-raro2 {
+    padding-left: 1.25rem; /* px-5 */
+    padding-top: 0.5rem; /* pt-2 */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Title */
+.h2-rarisimo {
+    font-weight: 600; /* font-semibold */
+    
+}

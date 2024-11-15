@@ -1,0 +1,85 @@
+/* #app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.container-div {
+  border: 3px dotted #f5d;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #73A6B5; */
+}
+
+.swiper {
+  width: 930px;
+  height: 390px;
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+
+/* MultiColumnSwiper.css */
+.swiper-container {
+    position: relative;
+
+  }
+  
+  .custom-pagination {
+    position: absolute;
+    top: 10px;  /* Mueve la paginación hacia la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Asegura que la paginación esté encima de otros elementos */
+  }
+  
+  .mySwiper .swiper-pagination-bullet {
+    background-color: purple; /* Cambia el color de los bullets */
+    text-align: end;
+    border: "2px solid yellow";
+
+    
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    background-color: darkviolet; /* Color del bullet activo */
+    border: "2px solid yellow";
+
+  }
+  

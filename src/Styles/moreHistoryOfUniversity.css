@@ -1,0 +1,136 @@
+.elDiv-principal {
+  min-height: 100vh;
+  border: 2px groove #f33;
+}
+
+.section {
+  border: 2px solid black;
+  min-height: 50vh;
+}
+
+.section-p {
+  border: 3px dotted #f67;
+  font-size: 35px;
+  width: 60vw;
+}
+
+.section-div {
+  border: 3px dotted #567;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.section-subdiv1 {
+  border: 3px dashed #4f4;
+  max-width: 40%;
+  font-size: 20px;
+  height: 100%;
+}
+
+.section-subdiv2 {
+  border: 3px dashed #02d;
+  height: 100%;
+  width: 45%;
+}
+
+.mySwiper2 {
+  width: 600px;
+}
+
+.swiper-div {
+  background-color: #484;
+}
+
+/* Clase para el contenedor principal */
+.contenedor-facts {
+  max-width: 76rem; /* Equivalent to max-w-6xl */
+  margin-left: auto; /* Equivalent to mx-auto */
+  margin-right: auto; /* Equivalent to mx-auto */
+  padding: 1.5rem; /* Equivalent to p-6 */
+}
+
+/* Título principal */
+.titulo-facts {
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  font-weight: 400; /* Equivalent to font-normal */
+  margin-bottom: 2rem; /* Equivalent to mb-8 */
+  border-top:1px solid red ;
+}
+
+/* Estilos para la grid principal */
+.grid-facts {
+  display: grid;
+  grid-template-columns: 1fr; /* Equivalent to grid-cols-1 */
+  gap: 4rem 1rem; /* Equivalent to gap-x-16 gap-y-4 */
+}
+
+/* Media query para pantallas medianas y más grandes */
+@media (min-width: 768px) {
+  .grid-facts {
+    grid-template-columns: 1fr auto; /* Equivalent to md:grid-cols-[1fr,auto] */
+  }
+}
+
+/* Sección de cada sub-título */
+.subtitulo-facts {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  font-weight: 500; /* Equivalent to font-medium */
+  margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+}
+
+/* Grid para los datos */
+.grid-datos {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Equivalent to grid-cols-[auto,1fr] */
+  gap: 2rem 2rem; /* Equivalent to gap-x-8 gap-y-2 */
+  margin-bottom: 1.5rem; /* Equivalent to mb-6 */
+  border: 3px solid orange;
+}
+
+/* Imágenes en la sección de imágenes */
+.imagenes-section {
+  display: space-between; /* Using gap for space-y-6 */
+  margin-bottom: 1.5rem; /* For margin between images */
+  border: 2px solid purple;
+
+
+}
+
+.imagenes-section-div{
+  border: 2px solid #f54;
+
+}
+
+.imagen-article {
+  width: 100%;
+  max-width: 24rem; /* Equivalent to max-w-md */
+  margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+  border: 3px dotted #444;
+  
+}
+
+/* Para el texto debajo de las imágenes */
+.texto-imagen {
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  border: 1px solid green;
+  width: 50%;
+}
+
+/* Texto rojo en las imágenes */
+.texto-rojo {
+  color: #f87171; /* Equivalent to text-red-500 */
+  font-weight: 500; /* Equivalent to font-medium */
+  margin-right: 0.25rem; /* Equivalent to mr-1 */
+}
+
+.text-right{
+    /* border: ; */
+    text-align: end;
+    border-bottom:2px dotted #ccc ;
+}
+
+.us{
+    border-bottom:2px dotted #ccc ;
+    width: 600px;
+}

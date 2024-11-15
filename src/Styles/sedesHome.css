@@ -1,0 +1,113 @@
+.main-div {
+  min-height: 50vw;
+  border: 2px solid green;
+  background-color: #474992;
+}
+
+#h2-id {
+  border: 2px solid burlywood;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+}
+
+#card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* width: 95%; Ajusta el ancho de la tarjeta */
+  /* max-width: 600px; Limita el ancho máximo de la tarjeta */
+
+  width: 90%;
+}
+
+#card img {
+  width: 100%;
+  height: 100%;
+
+  /* background-image: url(""); */
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+#card h2 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #fdd835;
+}
+
+#card p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  color: #ccc;
+}
+
+/* #card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #fdd835;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+
+  }
+
+  #card a:hover {
+    background-color: #e4c029;
+  } */
+
+.boton-sede {
+  padding: 0.6em 1.3em;
+  border: 2px solid #fdd835;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #fdd835;
+}
+
+.boton-sede::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #fdd835;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.boton-sede:hover::before {
+  width: 105%;
+}
+
+.boton-sede:hover {
+  color: #111;
+}

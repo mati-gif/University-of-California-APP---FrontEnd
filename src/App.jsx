@@ -12,6 +12,7 @@ import MoreHistoyOfUniversity from './pages/MoreHistoyOfUniversity'
 import Community from './components/Community'
 import Ingreso from './components/Ingreso'
 import FollowUs from './components/FollowUs'
+import FooterHome from './pages/FooterHome'
 // import './App.css'
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
     {/* <Register/>*/}
 
     {/* <MoreHistoyOfUniversity/> */}
-
+    <FooterHome/>
     </>
   )
 }

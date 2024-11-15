@@ -566,7 +566,7 @@ function Home() {
             <TheUniversity/>
             <Ingreso/>
             <FollowUs/>
-
+            
 
         </>
     );

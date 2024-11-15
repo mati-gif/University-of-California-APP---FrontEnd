@@ -1,0 +1,118 @@
+/* Footer Container */
+.footer-div {
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    max-width: 1280px; /* max-w-screen-xl */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    padding-top: 4rem; /* py-16 */
+    padding-bottom: 4rem; /* py-16 */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* space-y-8 */
+}
+
+/* Container Grid */
+.containerDiv-grid {
+    display: grid; /* grid */
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
+    gap: 2rem; /* gap-8 */
+}
+
+/* Parrafo Footer */
+.parrafo-footer {
+    margin-top: 1rem; /* mt-4 */
+    max-width: 20rem; /* max-w-xs */
+    color: #fff; /* text-gray-500 */
+    font-size:18px;
+}
+
+
+/* Footer UL */
+.footer-ul {
+    display: flex; /* flex */
+    gap: 1.5rem; /* gap-6 */
+    list-style: none;
+    border:2px solid #5a5;
+
+}
+
+/* Footer A */
+.footer-a {
+    color: #fff; /* text-gray-700 */
+    transition: opacity 0.3s ease; /* transition */
+}
+
+.footer-a:hover {
+    opacity: 0.75; /* hover:opacity-75 */
+}
+
+
+/* SR Only */
+.sr-only {
+    position: absolute; /* sr-only */
+    width: 1px; /* sr-only */
+    height: 1px; /* sr-only */
+    padding: 0; /* sr-only */
+    margin: -1px; /* sr-only */
+    overflow: hidden; /* sr-only */
+    clip: rect(0, 0, 0, 0); /* sr-only */
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.div-grid_2 {
+    display: grid; /* grid */
+    grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
+    gap: 2rem; /* gap-8 */
+}
+
+/* Ul Footer Div 2 */
+.ul-footer-div_2 {
+    margin-top: 1.5rem; /* mt-6 */
+    font-size: 0.875rem; /* text-sm */
+    list-style: none;
+    line-height: 30px;
+    border:2px solid #5a5;
+
+}
+
+/* A Li Ul */
+.a__li--ul {
+    color: #fff; /* text-gray-700 */
+    transition: opacity 0.3s ease; /* transition */
+    font-size: 16px;
+
+}
+
+.a__li--ul:hover {
+    opacity: 0.75; /* hover:opacity-75 */
+}
+
+@media (min-width: 640px) {
+    .footer-div {
+        padding-left: 1.5rem; /* sm:px-6 */
+        padding-right: 1.5rem; /* sm:px-6 */
+    }
+
+    .div-grid_2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* sm:grid-cols-2 */
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-div {
+        gap: 4rem; /* lg:space-y-16 */
+        padding-left: 2rem; /* lg:px-8 */
+        padding-right: 2rem; /* lg:px-8 */
+    }
+
+    .containerDiv-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)); /* lg:grid-cols-3 */
+    }
+
+    .div-grid_2 {
+        grid-column: span 2; /* lg:col-span-2 */
+        grid-template-columns: repeat(4, minmax(0, 1fr)); /* lg:grid-cols-4 */
+    }
+}

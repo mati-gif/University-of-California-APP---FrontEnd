@@ -28,7 +28,7 @@ function Community() {
 
     return (
         <>
-            <div class='super-div'>
+            <div id='community' class='super-div'>
                 <h2 id='super-h2'>
                     UC Community
                 </h2>

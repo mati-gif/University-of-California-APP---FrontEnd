@@ -18,8 +18,8 @@ function MoreHistoyOfUniversity() {
         <>
             <div class='elDiv-principal'>
 
-                <Breadcrumb>
-                    <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+                <Breadcrumb style={{border:"2px solid #48e",fontSize:"20px"}}>
+                    <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                     <Breadcrumb.Item active>History of University</Breadcrumb.Item>
                 </Breadcrumb>
 

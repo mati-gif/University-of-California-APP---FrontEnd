@@ -18,7 +18,7 @@ import { FreeMode, Keyboard, EffectCoverflow, Pagination, Navigation, Autoplay }
 export default function Ingreso() {
     return (
         <>
-            <div class='gran-div'>
+            <div id='ingreso' class='gran-div'>
                 <h2 id='gran-h2'>
                     Income
                 </h2>

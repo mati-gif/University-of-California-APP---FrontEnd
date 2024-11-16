@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import Home from './pages/home'
 import Register from './pages/Register'
 import Hola from './pages/CarreerCarouselHome'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import CarreerCarouselHome from './pages/CarreerCarouselHome'
 import SedesHome from './components/SedesHome'
 import TheUniversity from './components/TheUniversity'
@@ -13,6 +13,8 @@ import Community from './components/Community'
 import Ingreso from './components/Ingreso'
 import FollowUs from './components/FollowUs'
 import FooterHome from './pages/FooterHome'
+
+import MainLayout from './layout/MainLayout'
 // import './App.css'
 
 function App() {
@@ -20,12 +22,21 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-    <Home /> 
-    </BrowserRouter>
-    {/* <Register/>*/}
+      <BrowserRouter>
+        <Routes>
+        <Route path="/" element={<MainLayout/>}>
+            {/* Esto indica que Home es el índice dentro de MainLayout */}
+            <Route index element={<Home/>} />
+            <Route  element={<CarreerCarouselHome/>}/>
+            <Route element={<SedesHome/>}/>
+            <Route element={<Ingreso/>}/>
+            <Route  element={<Community/>}/>
+          <Route path='/historyUniversity' element={<MoreHistoyOfUniversity/>}/>
+          </Route>
 
-    {/* <MoreHistoyOfUniversity/> */}
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }

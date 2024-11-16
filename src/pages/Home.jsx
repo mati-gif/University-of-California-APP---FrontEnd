@@ -111,131 +111,14 @@ import ExperienciaUC from "./ExperienciaUC";
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function Home() {
-    const location = useLocation(); // Usamos useLocation para obtener la ruta actual
 
-    // Función que determina si el enlace está activo según la ruta
-    const isActive = (path) => location.pathname === path;
-
-    // Estado para controlar el hover
-    const [hovered, setHovered] = useState(null);
-
-    // Función para manejar el hover de los links
-    const handleHover = (index) => {
-        setHovered(index);
-    };
 
 
 
 
     return (
         <>
-            <Nav
-                activeKey="/home"
-                className="fixed-top"
-                style={{ backgroundColor: "#003567", height: "14%" }} // Color de fondo
-            >
-                <Nav.Item className="d-flex justify-content-between align-items-center w-100">
-                    {/* Logo a la izquierda */}
-                    <div className="d-flex align-items-center">
-                        <img
-                            src={logo} // Reemplaza con la URL de tu logo
-                            alt="Logo"
-                            style={{
-                                height: "85px",
-                                marginLeft: "10px",
-                                width: "195px",
-                                objectFit: "cover",
-                            }} // Ajusta el tamaño del logo
-                        />
-                    </div>
 
-                    {/* Enlaces de navegación (centrados) */}
-                    <div className="d-flex justify-content-center w-100">
-                        <Nav.Link
-                            href="/home"
-                            className={`text-white fs-5 ${isActive("/home") || hovered === 0
-                                ? "border-bottom border-white"
-                                : ""
-                                }`}
-                            onMouseEnter={() => handleHover(0)}
-                            onMouseLeave={() => setHovered(null)}
-                        >
-                            Carrers
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/headquarters"
-                            className={`text-white fs-5 ${isActive("/headquarters") || hovered === 1
-                                ? "border-bottom border-white"
-                                : ""
-                                }`}
-                            onMouseEnter={() => handleHover(1)}
-                            onMouseLeave={() => setHovered(null)}
-                        >
-                            Headquarters
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/university"
-                            className={`text-white fs-5 ${isActive("/university") || hovered === 2
-                                ? "border-bottom border-white"
-                                : ""
-                                }`}
-                            onMouseEnter={() => handleHover(2)}
-                            onMouseLeave={() => setHovered(null)}
-                        >
-                            The University
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/scholarships"
-                            className={`text-white fs-5 ${isActive("/scholarships") || hovered === 3
-                                ? "border-bottom border-white"
-                                : ""
-                                }`}
-                            onMouseEnter={() => handleHover(3)}
-                            onMouseLeave={() => setHovered(null)}
-                        >
-                            Income
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/news"
-                            className={`text-white fs-5 ${isActive("/news") || hovered === 4
-                                ? "border-bottom border-white"
-                                : ""
-                                }`}
-                            onMouseEnter={() => handleHover(4)}
-                            onMouseLeave={() => setHovered(null)}
-                        >
-                            News
-                        </Nav.Link>
-                        <Nav.Link
-                            href="/community"
-                            className={`text-white fs-5 ${isActive("/community") || hovered === 5
-                                ? "border-bottom border-white"
-                                : ""
-                                }`}
-                            onMouseEnter={() => handleHover(5)}
-                            onMouseLeave={() => setHovered(null)}
-                        >
-                            Community
-                        </Nav.Link>
-                    </div>
-
-                    {/* Login posicionado a la derecha con un pequeño margen */}
-                    <div className="ml-auto">
-                        <Nav.Link
-                            href="/login"
-                            className={`text-white fs-5 ${isActive("/login") || hovered === 6
-                                ? "border-bottom border-white"
-                                : ""
-                                }`}
-                            style={{ marginRight: "20px" }}
-                            onMouseEnter={() => handleHover(6)}
-                            onMouseLeave={() => setHovered(null)}
-                        >
-                            Login
-                        </Nav.Link>
-                    </div>
-                </Nav.Item>
-            </Nav>
 
             <Carousel fade>
                 <Carousel.Item interval={3000}>
@@ -299,7 +182,7 @@ function Home() {
 
             </div >
 
-            <div style={{ border: "2px solid red", minHeight: "100vh" }}>
+            <div id="news" style={{ border: "2px solid red", minHeight: "100vh" }}>
                 <h2
                     style={{
                         border: "2px solid green",

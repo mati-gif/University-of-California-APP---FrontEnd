@@ -1,6 +1,7 @@
 .elDiv-principal {
   min-height: 100vh;
   border: 2px groove #f33;
+  margin-top: 90px;
 }
 
 .section {

@@ -39,24 +39,22 @@ function ExperienciaUC() {
                             </div>
                             <div>
                                 <h1 class="experiencia__h1-titulo ">
-                                    EXPERIENCIA UCA PRESENCIAL
+                                IN-PERSON UC EXPERIENCE
                                 </h1>
-                                <p style={{ color: "#4b5563", fontSize: "1.25rem" }} class="text-gray-600 text-xl">(Todas las sedes)</p>
+                                <p style={{ color: "#4b5563", fontSize: "1.25rem" }} class="text-gray-600 text-xl">(All locations)</p>
                             </div>
                         </div>
 
                         <div class="exp__div-custom ">
-                            <h2 style={{ fontWeight: "bold", marginBottom: "0.5rem" }} class="font-bold mb-2">Más información</h2>
+                            <h2 style={{ fontWeight: "bold", marginBottom: "0.5rem" }} class="font-bold mb-2">More information</h2>
                             <Link href="#" class="link text-white hover:underline">
-                                Experiencia UCA país
+                            UC country experience
                             </Link>
                         </div>
                     </div>
 
                     <p class="parrafo-exp ">
-                        En este evento vas a poder charlar con las autoridades de todas las carreras de la UCA para conocer
-                        el plan de estudios y salida laboral de la carrera de tu interés. Durante el evento también se ofrecen
-                        las siguientes actividades:
+                    At this event you will be able to chat with the authorities of all the UC majors to learn about the study plan and job opportunities for the major of your interest. The following activities are also offered during the event:
                     </p>
 
                     <div class="div-section-libro__log ">
@@ -64,7 +62,7 @@ function ExperienciaUC() {
                             <BookOpen class="book-logo " size={32} />
                             <div>
                                 <h3 style={{ color: "#33B1FF", fontWeight: "bold", marginBottom: "0.25rem" }} >
-                                    TALLER DE ORIENTACIÓN VOCACIONAL
+                                VOCATIONAL GUIDANCE WORKSHOP
                                 </h3>
                             </div>
                         </div>
@@ -73,7 +71,7 @@ function ExperienciaUC() {
                             <Lightbulb class="book-logo  " size={32} />
                             <div>
                                 <h3 style={{ color: "#33B1FF", fontWeight: "bold", marginBottom: "0.25rem" }}>
-                                    JUEGOS Y ESPACIO DE INNOVACIÓN
+                                GAMES AND INNOVATION SPACE
                                 </h3>
                             </div>
                         </div>
@@ -82,7 +80,7 @@ function ExperienciaUC() {
                             <Coffee class="book-logo" size={32} />
                             <div>
                                 <h3 style={{ color: "#33B1FF", fontWeight: "bold", marginBottom: "0.25rem" }} >
-                                    ESPACIO PARA PADRES
+                                SPACE FOR PARENTS
                                 </h3>
                             </div>
                         </div>
@@ -90,7 +88,7 @@ function ExperienciaUC() {
 
                     <div class="calendar__exp flex items-center justify-center gap-4">
                         <Calendar style={{ color: "#33B1FF" }} size={48} />
-                        <h2 style={{ color: "#33B1FF", fontWeight: "bold", fontSize: "2.25rem" }}  >INSCRIBITE</h2>
+                        <h2 style={{ color: "#33B1FF", fontWeight: "bold", fontSize: "2.25rem" }}  >REGISTER</h2>
                     </div>
                 </div>
 
@@ -102,13 +100,13 @@ function ExperienciaUC() {
                             href="#"
                             class="locations__sedes__exp px-8 py-3 bg-[#33B1FF] text-white font-bold rounded-lg transition-all duration-300 hover:bg-[#2980b9] hover:-translate-y-1 hover:shadow-lg"
                         >
-                            BUENOS AIRES
+                            LOS ANGELES
                         </Link>
                         <Link
                             href="#"
                             class="locations__sedes__exp px-8 py-3 bg-[#33B1FF] text-white font-bold rounded-lg transition-all duration-300 hover:bg-[#2980b9] hover:-translate-y-1 hover:shadow-lg"
                         >
-                            ROSARIO
+                            SAN DIEGO
                         </Link>
                         <Link
                             href="#"
@@ -136,9 +134,9 @@ function ExperienciaUC() {
                             </svg>
                             <div>
                                 <h1 class="h1-campus__tours text-[#1e3a8a] text-3xl font-bold leading-tight">
-                                    VISITAS GUIADAS POR EL CAMPUS
+                                GUIDED TOURS OF THE CAMPUS
                                 </h1>
-                                <p styles={{color:"#4b5563",fontSize:"1.25rem"}} class="text-gray-600 text-xl">(Todas las sedes)</p>
+                                <p styles={{color:"#4b5563",fontSize:"1.25rem"}} class="text-gray-600 text-xl">(All locations)</p>
                             </div>
                         </div>
 
@@ -146,8 +144,8 @@ function ExperienciaUC() {
                         <div class='lineaSeparadora  border-gray-300 mb-6'></div>
 
                         <p class="text-[#1e3a8a] mb-8 text-lg leading-relaxed">
-                            Te invitamos a recorrer nuestro campus de Puerto Madero en el que podrás conocer los diferentes
-                            espacios de UCA como: Laboratorios, Deportes y estudio de radio y televisión, entre otros.
+                        We invite you to tour our Los Angeles campus where you can learn about the different
+                        UC spaces such as: Laboratories, Sports and radio and television studios, among others.
                         </p>
 
                         <div style={{display:"flex",justifyContent:"center"}} class="flex justify-center">
@@ -155,7 +153,7 @@ function ExperienciaUC() {
                                 href="#"
                                 class="link2 px-12 py-3 bg-[#1e3a8a] text-white font-bold rounded-lg transition-all duration-300 hover:bg-[#152c70] hover:-translate-y-1 hover:shadow-lg text-xl"
                             >
-                                INSCRIBITE
+                            REGISTER
                             </Link>
                         </div>
                     </div>
@@ -174,9 +172,9 @@ function ExperienciaUC() {
                             </svg>
                             <div>
                                 <h1 class="h1-campus__tours text-[#1e3a8a] text-3xl font-bold leading-tight">
-                                ACTIVIDADES PARA<br />COLEGIOS SECUNDARIOS
+                                ACTIVITIES FOR<br />SECONDARY SCHOOLS
                                 </h1>
-                                <p styles={{color:"#4b5563",fontSize:"1.25rem"}} class="text-gray-600 text-xl">(Todas las sedes)</p>
+                                <p styles={{color:"#4b5563",fontSize:"1.25rem"}} class="text-gray-600 text-xl">(All locations)</p>
                             </div>
                         </div>
 
@@ -184,9 +182,9 @@ function ExperienciaUC() {
                         <div class='lineaSeparadora  border-gray-300 mb-6'></div>
 
                         <p class="text-[#1e3a8a] mb-8 text-lg leading-relaxed">
-                        Si sos docente de los últimos años del secundario, estas propuestas son para vos. 
-        Descubrí las actividades diseñadas para enriquecer la experiencia de aprendizaje de tus estudiantes. 
-        Registrate ahora para recibir información detallada. ¡No te pierdas la oportunidad de marcar la diferencia en tus alumnos!
+                        If you are a teacher of the last years of secondary school, these proposals are for you. 
+        Discover activities designed to enrich your students' learning experience. 
+        Register now to receive detailed information. Don't miss the opportunity to make a difference for your students!
                         </p>
 
                         <div style={{display:"flex",justifyContent:"center"}} class="flex justify-center">
@@ -194,7 +192,7 @@ function ExperienciaUC() {
                                 href="#"
                                 class="link2 px-12 py-3 bg-[#1e3a8a] text-white font-bold rounded-lg transition-all duration-300 hover:bg-[#152c70] hover:-translate-y-1 hover:shadow-lg text-xl"
                             >
-                                INSCRIBITE
+                            REGISTER
                             </Link>
                         </div>
                     </div>

@@ -11,9 +11,9 @@ function SedesHome() {
       }, []);
     return (
         <>
-            <div class='main-div'>
+            <div id='locations' class='main-div'>
                 <h2 id='h2-id'>
-                    Headquarters
+                    Locations
                 </h2>
 
                 <div class="container">

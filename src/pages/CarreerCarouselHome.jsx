@@ -15,7 +15,7 @@ function CarreerCarouselHome() {
 
     return (
         <>
-            <div class='container-div'>
+            <div id='careers' class='container-div'>
                 {/* Contenedor de paginación personalizada */}
                 <div className="custom-pagination"></div>
                 <Swiper

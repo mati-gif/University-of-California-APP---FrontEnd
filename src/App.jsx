@@ -15,6 +15,7 @@ import FollowUs from './components/FollowUs'
 import FooterHome from './pages/FooterHome'
 
 import MainLayout from './layout/MainLayout'
+import ExperienciaUC from './pages/ExperienciaUC'
 // import './App.css'
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route element={<Ingreso/>}/>
             <Route  element={<Community/>}/>
           <Route path='/historyUniversity' element={<MoreHistoyOfUniversity/>}/>
+          <Route path='/experienciaUC' element={<ExperienciaUC/>}/>
           </Route>
 
         </Routes>

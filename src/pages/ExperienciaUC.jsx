@@ -20,13 +20,13 @@ function ExperienciaUC() {
                     >
                         <div class="divDentroBanner ">
                             <h1 class="h1DentroBanner ">
-                                Let us find your
+                            UC Country Experience
                             </h1>
                         </div>
                     </div>
                 </section>
-                <Breadcrumb>
-                    <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+                <Breadcrumb style={{fontSize:"24px"}}>
+                    <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                     <Breadcrumb.Item active>UC Experience</Breadcrumb.Item>
                 </Breadcrumb>
 
@@ -107,18 +107,6 @@ function ExperienciaUC() {
                             class="locations__sedes__exp px-8 py-3 bg-[#33B1FF] text-white font-bold rounded-lg transition-all duration-300 hover:bg-[#2980b9] hover:-translate-y-1 hover:shadow-lg"
                         >
                             SAN DIEGO
-                        </Link>
-                        <Link
-                            href="#"
-                            class="locations__sedes__exp px-8 py-3 bg-[#33B1FF] text-white font-bold rounded-lg transition-all duration-300 hover:bg-[#2980b9] hover:-translate-y-1 hover:shadow-lg"
-                        >
-                            MENDOZA
-                        </Link>
-                        <Link
-                            href="#"
-                            class="locations__sedes__exp px-8 py-3 bg-[#33B1FF] text-white font-bold rounded-lg transition-all duration-300 hover:bg-[#2980b9] hover:-translate-y-1 hover:shadow-lg"
-                        >
-                            PARANÁ
                         </Link>
                     </div>
 

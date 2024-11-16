@@ -13,6 +13,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { FreeMode, Keyboard, EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 
 export default function Ingreso() {
@@ -148,12 +149,14 @@ export default function Ingreso() {
                                         <p class="magic-title2">
                                         UC country experience
                                         </p>
+                                        <Link to="/experienciaUC">
                                         <button class="learn-more">
                                             <span class="circle" aria-hidden="true">
                                                 <span class="icon arrow"></span>
                                             </span>
                                             <span class="button-text">Learn More</span>
                                         </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </SwiperSlide>

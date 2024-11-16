@@ -451,8 +451,8 @@ function Home() {
             <TheUniversity/>
             <Ingreso/>
             <FollowUs/>
-            <FooterHome/>
-            <ExperienciaUC/>
+
+
 
             
 

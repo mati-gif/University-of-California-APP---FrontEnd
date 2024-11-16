@@ -2,12 +2,13 @@
 
     min-height: 100vh;
     border: 5px solid #aa1;
+    width: 100vw;
 }
 
 /* Banner */
 .banner {
     position: relative; /* relative */
-    background-image: url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'); /* bg-[url(...)] */
+    background-image: url('https://wadmin.uca.edu.ar/public/filters/mediumSquare/public/20241114/1731606878_2024-11-11-Ignacio-Torres-junto-con-alumnos-visita-del-gobernador-de-Chubut.jpg'); /* bg-[url(...)] */
     background-size: cover; /* bg-cover */
     background-position: center; /* bg-center */
     background-repeat: no-repeat; /* bg-no-repeat */
@@ -145,6 +146,7 @@
     margin-left: auto; /* mx-auto */
     margin-right: auto; /* mx-auto */
     padding: 1.5rem; /* p-6 */
+    border: 2px dotted #1a3;
 }
 
 /* Location Exp Buttons */
@@ -154,6 +156,7 @@
     gap: 1rem; /* gap-4 */
     margin-bottom: 3rem; /* mb-12 */
     justify-content: center; /* justify-center */
+    border: 3px dashed #89c;
 }
 
 

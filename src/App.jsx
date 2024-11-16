@@ -26,7 +26,6 @@ function App() {
     {/* <Register/>*/}
 
     {/* <MoreHistoyOfUniversity/> */}
-    <FooterHome/>
     </>
   )
 }

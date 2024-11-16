@@ -106,6 +106,8 @@ import TheUniversity from "../components/TheUniversity";
 import Community from "../components/Community";
 import Ingreso from "../components/Ingreso";
 import FollowUs from "../components/FollowUs";
+import FooterHome from "./FooterHome";
+import ExperienciaUC from "./ExperienciaUC";
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function Home() {
@@ -566,6 +568,9 @@ function Home() {
             <TheUniversity/>
             <Ingreso/>
             <FollowUs/>
+            <FooterHome/>
+            <ExperienciaUC/>
+
             
 
         </>

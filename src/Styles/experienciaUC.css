@@ -1,0 +1,291 @@
+.mega-container{
+
+    min-height: 100vh;
+    border: 5px solid #aa1;
+}
+
+/* Banner */
+.banner {
+    position: relative; /* relative */
+    background-image: url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'); /* bg-[url(...)] */
+    background-size: cover; /* bg-cover */
+    background-position: center; /* bg-center */
+    background-repeat: no-repeat; /* bg-no-repeat */
+}
+
+/* Simple Div */
+/* Simple Div */
+.simple-div {
+    position: absolute; /* absolute */
+    inset: 0; /* inset-0 */
+    background-color: rgba(255, 255, 255, 0.75); /* bg-white/75 */
+}
+
+
+/* Simple Div 2 */
+.simple-div2 {
+    position: relative; /* relative */
+    margin-inline: auto; /* mx-auto */
+    max-width: 100%; /* max-w-screen-xl */
+    max-width: 1280px; /* Tamaño exacto para Tailwind `max-w-screen-xl` */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    padding-top: 8rem; /* py-32 */
+    padding-bottom: 8rem; /* py-32 */
+}
+
+/* Div Dentro Banner */
+.divDentroBanner {
+    max-width: 36rem; /* max-w-xl */
+    text-align: center; /* text-center */
+}
+
+/* H1 Dentro Banner */
+.h1DentroBanner {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 800; /* font-extrabold */
+}
+
+
+/* Exp Div */
+.exp__div {
+    max-width: 72rem; /* max-w-6xl */
+    margin-inline: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 */
+}
+
+/* Exp Div Container */
+.exp__div-container {
+    display: flex; /* flex */
+    flex-direction: column; /* flex-col */
+    justify-content: space-between; /* justify-between */
+    align-items: flex-start; /* items-start */
+    margin-bottom: 2rem; /* mb-8 */
+    border-bottom: 1px solid; /* border-b */
+    padding-bottom: 1.5rem; /* pb-6 */
+}
+
+/* Exp Div Container 1 */
+.exp__div-container-1 {
+    display: flex; /* flex */
+    align-items: flex-start; /* items-start */
+    gap: 1rem; /* gap-4 */
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+/* Experiencia H1 Título */
+.experiencia__h1-titulo {
+    color: #33B1FF; /* text-[#33B1FF] */
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 700; /* font-bold */
+    margin-bottom: 0.25rem; /* mb-1 */
+}
+
+/* Exp Div Custom */
+.exp__div-custom {
+    background-color: #003876; /* bg-[#003876] */
+    color: white; /* text-white */
+    padding: 1rem; /* p-4 */
+    border-radius: 0; /* rounded-none */
+    width: 100%; /* w-full */
+}
+
+
+
+/* Link */
+.link {
+    color: white; /* text-white */
+    text-decoration: none; /* quitar subrayado por defecto */
+}
+
+.link:hover {
+    text-decoration: underline; /* hover:underline */
+}
+
+/* Parrafo Exp */
+.parrafo-exp {
+    color: #003876; /* text-[#003876] */
+    margin-bottom: 3rem; /* mb-12 */
+    font-size: 1.125rem; /* text-lg */
+}
+
+/* Div Section Libro Log */
+.div-section-libro__log {
+    display: grid; /* grid */
+    grid-template-columns: 1fr; /* grid-cols-1 */
+    gap: 2rem; /* gap-8 */
+    margin-bottom: 3rem; /* mb-12 */
+}
+
+/* Div Section Libro */
+.div-section-libro {
+    display: flex; /* flex */
+    align-items: flex-start; /* items-start */
+    gap: 1rem; /* gap-4 */
+}
+
+/* Book Logo */
+.book-logo {
+    color: #33B1FF; /* text-[#33B1FF] */
+    flex-shrink: 0; /* flex-shrink-0 */
+}
+
+/* Calendar Exp */
+.calendar__exp {
+    display: flex; /* flex */
+    align-items: center; /* items-center */
+    justify-content: center; /* justify-center */
+    gap: 1rem; /* gap-4 */
+}
+
+
+/* Div Sedes Exp */
+.div-sedes-exp {
+    max-width: 56rem; /* max-w-4xl (64rem en Tailwind, 64 * 0.75 = 48rem) */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 */
+}
+
+/* Location Exp Buttons */
+.location-exp-buttons {
+    display: flex; /* flex */
+    flex-wrap: wrap; /* flex-wrap */
+    gap: 1rem; /* gap-4 */
+    margin-bottom: 3rem; /* mb-12 */
+    justify-content: center; /* justify-center */
+}
+
+
+
+/* Locations Sedes Exp */
+.locations__sedes__exp {
+    padding-left: 2rem; /* px-8 */
+    padding-right: 2rem; /* px-8 */
+    padding-top: 0.75rem; /* py-3 */
+    padding-bottom: 0.75rem; /* py-3 */
+    background-color: #33B1FF; /* bg-[#33B1FF] */
+    color: white; /* text-white */
+    font-weight: bold; /* font-bold */
+    border-radius: 0.5rem; /* rounded-lg */
+    transition: all 0.3s; /* transition-all duration-300 */
+}
+
+.locations__sedes__exp:hover {
+    background-color: #2980b9; /* hover:bg-[#2980b9] */
+    transform: translateY(-0.25rem); /* hover:-translate-y-1 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* hover:shadow-lg */
+}
+
+/* Campus Tour Div */
+.campus-tour-div {
+    display: flex; /* flex */
+    align-items: flex-start; /* items-start */
+    gap: 1rem; /* gap-4 */
+    margin-bottom: 1.5rem; /* mb-6 */
+}
+
+/* Svg Tour Campus */
+.svg-tour-campus {
+    width: 3rem; /* w-12 (12 * 0.25rem = 3rem) */
+    height: 3rem; /* h-12 (12 * 0.25rem = 3rem) */
+    color: #1e3a8a; /* text-[#1e3a8a] */
+    flex-shrink: 0; /* flex-shrink-0 */
+}
+
+/* H1 Campus Tours */
+.h1-campus__tours {
+    color: #1e3a8a; /* text-[#1e3a8a] */
+    font-size: 1.875rem; /* text-3xl (3 * 0.625rem = 1.875rem) */
+    font-weight: bold; /* font-bold */
+    line-height: 1.25; /* leading-tight */
+}
+
+/* Linea Separadora */
+.lineaSeparadora {
+    border-bottom: 1px solid #D1D5DB; /* border-gray-300 (Este es el color gris en Tailwind) */
+    margin-bottom: 1.5rem; /* mb-6 (24px) */
+}
+
+/* Link 2 */
+.link2 {
+    padding-left: 3rem; /* px-12 (12 * 0.25rem = 3rem) */
+    padding-right: 3rem; /* px-12 (12 * 0.25rem = 3rem) */
+    padding-top: 0.75rem; /* py-3 (3 * 0.25rem = 0.75rem) */
+    padding-bottom: 0.75rem; /* py-3 (3 * 0.25rem = 0.75rem) */
+    background-color: #1e3a8a; /* bg-[#1e3a8a] */
+    color: white; /* text-white */
+    font-weight: bold; /* font-bold */
+    border-radius: 0.5rem; /* rounded-lg */
+    font-size: 1.25rem; /* text-xl (1.25rem = 20px) */
+    transition: all 0.3s; /* transition-all duration-300 */
+}
+
+.link2:hover {
+    background-color: #152c70; /* hover:bg-[#152c70] */
+    transform: translateY(-0.25rem); /* hover:-translate-y-1 (translate -4px) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* hover:shadow-lg */
+}
+
+
+@media (min-width: 768px) {
+    .exp__div-container {
+        flex-direction: row; /* md:flex-row */
+    }
+    .exp__div-container-1 {
+        margin-bottom: 0; /* md:mb-0 */
+    }
+    .exp__div-custom {
+        width: auto; /* md:w-auto */
+    }
+
+    .div-section-libro__log {
+        grid-template-columns: repeat(3, 1fr); /* md:grid-cols-3 */
+    }
+}
+
+
+@media (min-width: 640px) {
+    .simple-div {
+        background-color: transparent; /* sm:bg-transparent */
+        background-image: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.95),
+            rgba(255, 255, 255, 0.25)
+        ); /* sm:from-white/95 sm:to-white/25 */
+    }
+
+    .simple-div2 {
+        padding-left: 1.5rem; /* sm:px-6 */
+        padding-right: 1.5rem; /* sm:px-6 */
+    }
+    .divDentroBanner {
+        text-align: left; /* ltr:sm:text-left */
+    }
+
+    .h1DentroBanner {
+        font-size: 3rem; /* sm:text-5xl */
+    }
+}
+
+html[dir="rtl"] .simple-div {
+    background-image: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.95),
+        rgba(255, 255, 255, 0.25)
+    ); /* rtl:sm:bg-gradient-to-l */
+}
+
+html[dir="rtl"] .divDentroBanner {
+    text-align: right; /* rtl:sm:text-right */
+}
+
+@media (min-width: 1024px) {
+    .simple-div2 {
+        display: flex; /* lg:flex */
+        height: 100vh; /* lg:h-screen */
+        align-items: center; /* lg:items-center */
+        padding-left: 2rem; /* lg:px-8 */
+        padding-right: 2rem; /* lg:px-8 */
+    }
+}

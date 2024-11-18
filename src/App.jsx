@@ -19,6 +19,7 @@ import ExperienciaUC from './pages/ExperienciaUC'
 import Becas from './pages/Becas'
 import Prestamos from './pages/Prestamos'
 import Reducciones from './pages/Reducciones'
+import Premios from './pages/Premios'
 // import './App.css'
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route path='/becas' element={<Becas/>} />
           <Route path='/prestamos' element={<Prestamos/>} />
           <Route path='/reducciones' element={<Reducciones/>}/>
+          <Route path='/premios' element={<Premios/>} />
           </Route>
 
         </Routes>

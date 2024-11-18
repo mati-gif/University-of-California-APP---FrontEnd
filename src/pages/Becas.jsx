@@ -50,7 +50,7 @@ function Becas() {
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} class="text-xl font-bold">REDUCCIONES</span>
                                 </div>
                             </Link>
-                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
+                            <Link to="/premios" style={{ textDecoration: "none", textDecorationLine: "none" }} >
                                 <div class='cuadrado-premios'>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PREMIOS</span>
                                 </div>

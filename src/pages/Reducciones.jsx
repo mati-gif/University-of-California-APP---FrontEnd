@@ -47,14 +47,14 @@ function Reducciones() {
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} class="text-xl font-bold">REDUCCIONES</span>
                                 </div>
                             </Link>
-                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
+                            <Link to="/premios" style={{ textDecoration: "none", textDecorationLine: "none" }} >
                                 <div class='cuadrado-premios'>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PREMIOS</span>
                                 </div>
                             </Link>
                         </div>
 
-                        <div style={{ height: "100px", display: "flex", flexDirection: "column", width: "300px", border: "2px solid red", display: "flex", justifyContent: "end", marginBottom: "2rem" }} >
+                        <div style={{ height: "100px", display: "flex", flexDirection: "column", width: "300px", border: "2px solid red", justifyContent: "end", marginBottom: "2rem" }} >
                             <div id='h2-info-becas__div1'>
                                 <h2 style={{ fontSize: "20px", marginBottom: "0.5rem", fontWeight: "700" }} >More information</h2>
                             </div>

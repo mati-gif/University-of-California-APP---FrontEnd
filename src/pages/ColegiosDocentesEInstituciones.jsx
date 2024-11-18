@@ -76,7 +76,7 @@ function ColegiosDocentesEInstituciones() {
                         </ul>
                         <h3 class='sub-tittle__h3'>Interviews with directors: (All locations) </h3>
                         <p class="colegiosDocentesEInstituciones__p2">The directors of the UC receive interested parties individually to resolve queries regarding study plans, job opportunities, job opportunities and other concerns they may have.</p>
-                        <h3 class='sub-tittle__h3'>Middle School-University Articulation Program : (California) </h3>
+                        <h3 class='sub-tittle__h3'>Middle School-University Articulation Program : (Los Angeles) </h3>
                         <p class="colegiosDocentesEInstituciones__p2">The UC Institutional Project presents a line of action firmly oriented to working jointly with middle-level institutions, a premise that is materialized on the Rosario Campus through the Middle School – University Articulation Program. Since the integration of the University Campus, hard work is being done on the development of this Program, which already integrates more than 60 secondary schools in Rosario and towns in other provinces.</p>
                         <h3 class='sub-tittle__h3'>The Proposal: </h3>
                         <p class="colegiosDocentesEInstituciones__p2">The UC's proposal is to generate spaces for meeting, working and reflecting together between high school and university teachers, to develop a concerted and shared articulation project, which ultimately makes “educational continuity” possible. This involves working to find the right “hinge” in several dimensions. The axes of work are complementarity, cooperation, collaboration and mutual enrichment between both levels of education.</p>

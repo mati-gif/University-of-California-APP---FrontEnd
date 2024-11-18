@@ -133,12 +133,14 @@ export default function Ingreso() {
                                         <p class="magic-title2">
                                             Contact UC Admission
                                         </p>
+                                        <Link to="/contactoIngreso">
                                         <button class="learn-more">
                                             <span class="circle" aria-hidden="true">
                                                 <span class="icon arrow"></span>
                                             </span>
                                             <span class="button-text">Learn More</span>
                                         </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </SwiperSlide>

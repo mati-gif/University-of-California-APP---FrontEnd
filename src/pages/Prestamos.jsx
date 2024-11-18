@@ -37,12 +37,12 @@ function Prestamos() {
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >BECAS</span>
                                 </div>
                             </Link>
-                            <Link to="/prestamos" style={{ textDecoration: "none", textDecorationLine: "none" }}>
+                            <Link to="#" style={{ textDecoration: "none", textDecorationLine: "none" }}>
                                 <div class='cuadrado-prestamos'>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PRÉSTAMOS</span>
                                 </div>
                             </Link>
-                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
+                            <Link to="/reducciones" style={{ textDecoration: "none", textDecorationLine: "none" }} >
                                 <div class='cuadrado-reducciones'>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} class="text-xl font-bold">REDUCCIONES</span>
                                 </div>

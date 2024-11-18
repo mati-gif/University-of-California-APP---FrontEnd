@@ -35,7 +35,7 @@ function Becas() {
                 <div class="contenedor-cuadrosColores max-w-6xl mx-auto p-6">
                     <div class='contenedor--cuadroInfo_y_cuadroColores'>
                         <div class="cuadrados-de-colores  grid grid-cols-1 md:grid-cols-4 mb-8">
-                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} href="#">
+                            <Link to="#" style={{ textDecoration: "none", textDecorationLine: "none" }} href="#">
                                 <div class='cuadrado-becas'>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >BECAS</span>
                                 </div>
@@ -45,7 +45,7 @@ function Becas() {
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PRÉSTAMOS</span>
                                 </div>
                             </Link>
-                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
+                            <Link to="/reducciones" style={{ textDecoration: "none", textDecorationLine: "none" }} >
                                 <div class='cuadrado-reducciones'>
                                     <span style={{ fontSize: "1.25rem", fontWeight: "700" }} class="text-xl font-bold">REDUCCIONES</span>
                                 </div>

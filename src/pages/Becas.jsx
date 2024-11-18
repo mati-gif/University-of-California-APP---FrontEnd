@@ -26,42 +26,46 @@ function Becas() {
                     </div>
                 </section>
 
-                <Breadcrumb style={{ fontSize: "24px" }}>
+                <Breadcrumb style={{ fontSize: "20px", marginLeft: "140px", marginTop: "20px" }}>
                     <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
                     <Breadcrumb.Item active>Scholarships</Breadcrumb.Item>
                 </Breadcrumb>
 
 
                 <div class="contenedor-cuadrosColores max-w-6xl mx-auto p-6">
-                    <div class="cuadrados-de-colores  grid grid-cols-1 md:grid-cols-4 mb-8">
-                        <Link style={{ textDecoration: "none", textDecorationLine: "none" }} href="#">
-                            <div class='cuadrado-becas'>
-                                <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >BECAS</span>
-                            </div>
-                        </Link>
-                        <Link style={{ textDecoration: "none", textDecorationLine: "none" }}>
-                            <div class='cuadrado-prestamos'>
-                                <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PRÉSTAMOS</span>
-                            </div>
-                        </Link>
-                        <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
-                            <div class='cuadrado-reducciones'>
-                                <span style={{ fontSize: "1.25rem", fontWeight: "700" }} class="text-xl font-bold">REDUCCIONES</span>
-                            </div>
-                        </Link>
-                        <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
-                            <div class='cuadrado-premios'>
-                                <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PREMIOS</span>
-                            </div>
-                        </Link>
-                    </div>
-
-                    <div style={{ border: "2px solid red", display: "flex", justifyContent: "end", marginBottom: "2rem" }} >
-                        <div class="infoBecas--mas">
-                            <h2 style={{ marginBottom: "0.5rem", fontWeight: "700" }} >Más información</h2>
-                            <Link href="#" class="campus__info ">
-                                Campus Virtual
+                    <div class='contenedor--cuadroInfo_y_cuadroColores'>
+                        <div class="cuadrados-de-colores  grid grid-cols-1 md:grid-cols-4 mb-8">
+                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} href="#">
+                                <div class='cuadrado-becas'>
+                                    <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >BECAS</span>
+                                </div>
                             </Link>
+                            <Link to="/prestamos" style={{ textDecoration: "none", textDecorationLine: "none" }}>
+                                <div class='cuadrado-prestamos'>
+                                    <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PRÉSTAMOS</span>
+                                </div>
+                            </Link>
+                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
+                                <div class='cuadrado-reducciones'>
+                                    <span style={{ fontSize: "1.25rem", fontWeight: "700" }} class="text-xl font-bold">REDUCCIONES</span>
+                                </div>
+                            </Link>
+                            <Link style={{ textDecoration: "none", textDecorationLine: "none" }} >
+                                <div class='cuadrado-premios'>
+                                    <span style={{ fontSize: "1.25rem", fontWeight: "700" }} >PREMIOS</span>
+                                </div>
+                            </Link>
+                        </div>
+
+                        <div style={{ height:"100px",display: "flex", flexDirection: "column", width: "300px", border: "2px solid red", display: "flex", justifyContent: "end", marginBottom: "2rem" }} >
+                            <div id='h2-info-becas__div1'>
+                                <h2 style={{ fontSize: "20px", marginBottom: "0.5rem", fontWeight: "700" }} >Más información</h2>
+                            </div>
+                            <div class="campus__info " >
+                                <Link style={{ textDecoration: "none" }} href="#" >
+                                    Campus Virtual
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
@@ -73,7 +77,7 @@ function Becas() {
                     </div>
                 </div>
 
-                <Accordion style={{ border: "3px solid #4f4", width: "50vw", display: "flex", flexDirection: "column", justifyContent: "center", marginLeft: "100px", gap: "50px" ,marginBottom:"50px"}} alwaysOpen>
+                <Accordion style={{ border: "3px solid #4f4", width: "50vw", display: "flex", flexDirection: "column", justifyContent: "center", marginLeft: "100px", gap: "50px", marginBottom: "50px" }} alwaysOpen>
                     <Accordion.Item style={{ border: "3px solid #563" }} eventKey="0">
                         <Accordion.Header   >
                             <div class='el1erHeader'>
@@ -233,7 +237,7 @@ function Becas() {
 
                             {/* <div class='beca1'></div> */}
                             <h2 class='acordionBody1h2' >
-                            Abogacía "Beca Tomás Casares"
+                                Abogacía "Beca Tomás Casares"
 
                             </h2>
                             Dirigida a estudiantes de último año del nivel medio con interés en estudiar la carrera de Abogacía.
@@ -253,7 +257,7 @@ function Becas() {
                                             <li>Rendimiento académico durante los estudios del nivel medio. </li>
                                             <li>dentificación con los valores humanistas cristianos que inspiran a nuestra Universidad* </li>
                                             <li>
-                                            Situación socioeconómica del candidato.
+                                                Situación socioeconómica del candidato.
                                             </li>
                                         </ul>
 

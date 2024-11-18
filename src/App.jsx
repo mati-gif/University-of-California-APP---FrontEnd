@@ -17,6 +17,7 @@ import FooterHome from './pages/FooterHome'
 import MainLayout from './layout/MainLayout'
 import ExperienciaUC from './pages/ExperienciaUC'
 import Becas from './pages/Becas'
+import Prestamos from './pages/Prestamos'
 // import './App.css'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path='/historyUniversity' element={<MoreHistoyOfUniversity/>}/>
           <Route path='/experienciaUC' element={<ExperienciaUC/>}/>
           <Route path='/becas' element={<Becas/>} />
+          <Route path='/prestamos' element={<Prestamos/>} />
           </Route>
 
         </Routes>

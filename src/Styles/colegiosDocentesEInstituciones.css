@@ -1,0 +1,106 @@
+.colegiosDocentesEInstituciones{
+    min-height: 100vh;
+    border: 5px solid #2e2;
+    width: 100vw;
+    margin-top: 86px;
+}
+
+
+.banner-colegiosDocentesEInstituciones {
+    position: relative; /* relative */
+    background-image: url('https://wadmin.uca.edu.ar/public/filters/horizontal/public/20220427/1651073090_WhatsApp%20Image%202022-04-05%20at%2012.26.36%20PM.jpg'); /* bg-[url(...)] */
+    background-size: cover; /* bg-cover */
+    background-position: center; /* bg-center */
+    background-repeat: no-repeat; /* bg-no-repeat */
+    /* background-color: #DC3170; */
+    /* height: 80vh; */
+}
+
+/* Simple Div */
+/* Simple Div */
+.simple-div__colegiosDocentesEInstituciones{
+    position: absolute; /* absolute */
+    inset: 0; /* inset-0 */
+    background-color: rgba(255, 255, 255, 0.45); /* bg-white/75 */
+}
+
+
+/* Simple Div 2 */
+.simple-div2--colegiosDocentesEInstituciones {
+    position: relative; /* relative */
+    margin-inline: auto; /* mx-auto */
+    max-width: 100%; /* max-w-screen-xl */
+    max-width: 1280px; /* Tamaño exacto para Tailwind `max-w-screen-xl` */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    padding-top: 8rem; /* py-32 */
+    padding-bottom: 8rem; /* py-32 */
+}
+
+/* Div Dentro Banner */
+.divDentroBanner-colegiosDocentesEInstituciones {
+    max-width: 36rem; /* max-w-xl */
+    text-align: center; /* text-center */
+}
+
+/* H1 Dentro Banner */
+.h1DentroBanner__colegiosDocentesEInstituciones {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 800; /* font-extrabold */
+    color: #003876;
+}
+
+.contenedor-cuadrosColores {
+    max-width: 72rem; /* max-w-6xl (6xl = 1152px = 72rem) */
+    margin-left: auto; /* mx-auto (centrado horizontal) */
+    margin-right: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+    border: 3px solid #5ff;
+}
+
+.colegiosDocentesEInstituciones__p {
+    color: #003876; /* text-[#003876] */
+    font-size: 1.125rem; /* text-lg (1.125rem = 18px) */
+    line-height: 1.625; /* leading-relaxed (relaxed = 1.625) */
+}
+
+.sub-tittle--1,.sub-tittle__h3 {
+    color: #003876; /* text-[#003876] */
+    font-size: 1.5rem; /* text-2xl (2 * 0.75rem = 1.5rem) */
+    font-weight: 700; /* font-bold */
+    margin-bottom: 1rem; /* mb-4 (4 * 0.25rem = 1rem) */
+    
+
+}
+
+.colegiosDocentesEInstituciones__p2{
+    color: #000; /* text-[#003876] */
+    font-size: 1.125rem; /* text-lg (1.125rem = 18px) */
+    line-height: 1.625; /* leading-relaxed (relaxed = 1.625) */
+    margin-bottom: 5rem; /* mb-4 (4 * 0.25rem = 1rem) */
+
+}
+
+.talleresDeOrientacion{
+    list-style:lower-alpha;
+}
+
+.talleresDeOrientacion2{
+    list-style:disc;
+}
+
+.talleresDeOrientacion2--Li{
+
+    font-weight: bold;
+
+}
+
+.li__ul2{
+    margin-top: 10px;
+}
+
+.li__ul2b{
+    margin-top: 10px;
+    margin-bottom:5rem ;
+
+}

@@ -53,13 +53,14 @@ export default function Ingreso() {
                                         <span class="magic-title">
                                             Schools, Teachers and Institutions
                                         </span>
+                                        <Link to="/colegiosDocenEInstitu">
                                         <button class="learn-more">
                                             <span class="circle" aria-hidden="true">
                                                 <span class="icon arrow"></span>
                                             </span>
                                             <span class="button-text">Learn More</span>
                                         </button>
-
+                                        </Link>
                                     </div>
                                 </div>
                             </SwiperSlide>

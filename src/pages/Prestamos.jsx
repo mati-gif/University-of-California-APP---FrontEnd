@@ -54,7 +54,7 @@ function Prestamos() {
                             </Link>
                         </div>
 
-                        <div style={{ height: "100px", display: "flex", flexDirection: "column", width: "300px", border: "2px solid red", display: "flex", justifyContent: "end", marginBottom: "2rem" }} >
+                        <div style={{ height: "100px", display: "flex", flexDirection: "column", width: "300px", border: "2px solid red", justifyContent: "end", marginBottom: "2rem" }} >
                             <div id='h2-info-becas__div1'>
                                 <h2 style={{ fontSize: "20px", marginBottom: "0.5rem", fontWeight: "700" }} >More information</h2>
                             </div>

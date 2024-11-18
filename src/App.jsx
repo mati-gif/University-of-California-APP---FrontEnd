@@ -20,6 +20,7 @@ import Becas from './pages/Becas'
 import Prestamos from './pages/Prestamos'
 import Reducciones from './pages/Reducciones'
 import Premios from './pages/Premios'
+import ColegiosDocentesEInstituciones from './pages/ColegiosDocentesEInstituciones'
 // import './App.css'
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path='/prestamos' element={<Prestamos/>} />
           <Route path='/reducciones' element={<Reducciones/>}/>
           <Route path='/premios' element={<Premios/>} />
+          <Route path='/colegiosDocenEInstitu' element={<ColegiosDocentesEInstituciones/>} />
           </Route>
 
         </Routes>

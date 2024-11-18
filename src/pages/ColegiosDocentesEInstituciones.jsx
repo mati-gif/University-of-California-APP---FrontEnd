@@ -57,7 +57,7 @@ function ColegiosDocentesEInstituciones() {
                             <p class="colegiosDocentesEInstituciones__p2">Generate a space in which students can learn and share concerns and fears regarding the changes they will experience in their transition from high school to University.</p>
                         </ul>
                         <h3 class='sub-tittle__h3'>UC Experience: (All locations) </h3>
-                        <p class="colegiosDocentesEInstituciones__p2">La UCA abre sus puertas a que todos los colegios interesados en conocer a los directores/as de las carreras puedan conectarse por medio de una plataforma virtual y participar de charlas de todas las carreras en un solo lugar. Más información: <Link to="/experienciaUC">Experiencia UC</Link></p>
+                        <p class="colegiosDocentesEInstituciones__p2">The UC opens its doors so that all schools interested in meeting the directors of the courses can connect through a virtual platform and participate in talks on all courses in one place. More information: <Link to="/experienciaUC">Experiencia UC</Link></p>
                         <h3 class='sub-tittle__h3'>Proposals for Vocational Counselors and Teachers: (All locations) </h3>
                         <ul class='talleresDeOrientacion2'>
                             <li class='talleresDeOrientacion2--Li'> Online guides:

@@ -36,6 +36,9 @@ function ContactoIngreso() {
             <p class="contactoIngreso__p">
               From Monday to Friday from 8 a.m. to 8 p.m., contact us by:
             </p>
+            <ul class='talleresDeOrientacion'>
+              <li style={{listStyle:"none"}}> 1200 E California Blvd, Pasadena, CA 91125  </li>
+            </ul>
             <ul class='talleresDeOrientacion2'>
               <li class='talleresDeOrientacion2--Li'> WhatsApp:
                 <span style={{ color: "#000", fontWeight: "initial", marginLeft: "5px" }}>54 9 11 9874 6541 3210</span>

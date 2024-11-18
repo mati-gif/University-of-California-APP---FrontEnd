@@ -74,7 +74,7 @@ function Header() {
                             onMouseEnter={() => handleHover(1)}
                             onMouseLeave={() => setHovered(null)}
                         >
-                            Carreers
+                            Careers
                         </Nav.Link>
                         <Nav.Link
                             onClick={() => handleSectionClick("#locations")}

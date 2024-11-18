@@ -190,7 +190,49 @@
     height: 5000%;
 }
 
+.el1erHeader{
+    border: 3px dotted #ce5;
+    font-size: 25px;
 
+    font-weight: bold;
+}
+
+#custom-accordion-header {
+    background-color: #003876; /* Color azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-size: 250px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrar texto */
+
+    /* padding: 10px 20px; Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease-in-out; /* Animación de hover */
+    border: 3px solid #3c3;
+    width: 150px;
+
+
+}
+
+.custom-accordion-header:hover {
+    background-color: #004899; /* Cambiar color en hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.acordion1b{
+    font-size: 20px;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.acordionBody1h2{
+    font-size: 24px;
+    color: #1e3a8a;
+    border: 2px solid #990;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
 
 @media (min-width: 768px) {
     .cuadrados-de-colores {

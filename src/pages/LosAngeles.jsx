@@ -80,17 +80,38 @@ function LosAngeles() {
                                 (direction) => (
                                     <DropdownButton
                                         as={ButtonGroup}
+                                        // key={direction}
+                                        // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                        drop={direction}
+                                        // variant="secondary"
+                                        title= "Show"
+                                        className='DropdownButton--LA'
+                                    >
+                                        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
+                                        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
+                                        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
+                                        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
+                                    </DropdownButton>
+                                ),
+                            )}
+                        </div>
+                        <div class='dropDown--LA' >
+                            {['end'].map(
+                                (direction) => (
+                                    <DropdownButton
+                                        as={ButtonGroup}
                                         key={direction}
                                         id={`dropdown-button-drop-${direction}`}
                                         drop={direction}
-                                        variant="secondary"
+                                        // variant="secondary"
                                         title={` Drop ${direction} `}
                                         className='DropdownButton--LA'
                                     >
                                         <Dropdown.Item eventKey="1">Action</Dropdown.Item>
                                         <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
                                         <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
-                                        <Dropdown.Divider />
+
                                         <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
                                     </DropdownButton>
                                 ),
@@ -111,28 +132,7 @@ function LosAngeles() {
                                         <Dropdown.Item eventKey="1">Action</Dropdown.Item>
                                         <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
                                         <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
-                                        <Dropdown.Divider />
-                                        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-                                    </DropdownButton>
-                                ),
-                            )}
-                        </div>
-                        <div class='dropDown--LA' >
-                            {['end'].map(
-                                (direction) => (
-                                    <DropdownButton
-                                        as={ButtonGroup}
-                                        key={direction}
-                                        id={`dropdown-button-drop-${direction}`}
-                                        drop={direction}
-                                        variant="secondary"
-                                        title={` Drop ${direction} `}
-                                        className='DropdownButton--LA'
-                                    >
-                                        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
-                                        <Dropdown.Divider />
+
                                         <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
                                     </DropdownButton>
                                 ),

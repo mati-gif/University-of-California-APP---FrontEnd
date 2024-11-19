@@ -250,6 +250,19 @@
     width: 100%;
     border-radius: none;
     height: 100%;
+   
+}
+
+#dropdown-menu-align-end{
+    background-color: #FFF;
+    border-radius: initial;
+    color: #000;
+}
+
+#dropdown-menu-align-end:hover{
+    background-color: #520236;
+    color: #fff;
+
 }
 
 

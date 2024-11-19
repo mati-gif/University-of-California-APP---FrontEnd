@@ -3,6 +3,7 @@ import "../Styles/sedesHome.css"
 
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { Link } from 'react-router-dom';
 
 function SedesHome() {
 
@@ -24,9 +25,11 @@ function SedesHome() {
                             <h2> Los Angeles </h2>
                             <p>1200 E California Blvd, Pasadena, CA 91125<br />LA - California</p>
                             {/* <a href="#">More info →</a> */}
+                            <Link to="/losAngeles" >
                             <button class='boton-sede'>
                             More info →
                             </button>
+                            </Link>
                         </div>
                     </div>
                     {/* <!-- Tarjeta 2 --> */}
@@ -36,6 +39,7 @@ function SedesHome() {
                             <h2>San Diego</h2>
                             <p>9500 Gilman Dr, La Jolla, CA 92093<br />LA - California</p>
                             {/* <a href="#">More info →</a> */}
+                            
                             <button class='boton-sede'>
                             More info →
                             </button>

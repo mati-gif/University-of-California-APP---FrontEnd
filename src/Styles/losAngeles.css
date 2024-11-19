@@ -1,0 +1,263 @@
+.LosAngeles{
+    min-height: 100vh;
+    border: 5px solid #2e2;
+    width: 100vw;
+    margin-top: 86px;
+}
+
+.banner-LosAngeles {
+    position: relative; /* relative */
+    background-image: url('https://www.ucsb.edu/sites/default/files/images/pages/Home/hero-afternoon.jpg'); /* bg-[url(...)] */
+    background-size: cover; /* bg-cover */
+    background-position: center; /* bg-center */
+    background-repeat: no-repeat; /* bg-no-repeat */
+    /* background-color: #DC3170; */
+    height: 100vh;
+}
+
+/* Simple Div */
+/* Simple Div */
+.simple-div__LosAngeles{
+    position: absolute; /* absolute */
+    inset: 0; /* inset-0 */
+    /* background-color: rgba(255, 255, 255, 0.45); bg-white/75 */
+}
+
+
+/* Simple Div 2 */
+.simple-div2--LosAngeles {
+    position: relative; /* relative */
+    margin-inline: auto; /* mx-auto */
+    max-width: 100%; /* max-w-screen-xl */
+    max-width: 1280px; /* Tamaño exacto para Tailwind `max-w-screen-xl` */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    padding-top: 8rem; /* py-32 */
+    padding-bottom: 8rem; /* py-32 */
+    border: 3px solid #dd6;
+}
+
+/* Div Dentro Banner */
+.divDentroBanner-LosAngeles {
+    max-width: 36rem; /* max-w-xl */
+    text-align: center; /* text-center */
+    border: 3px solid #edd;
+
+}
+
+/* H1 Dentro Banner */
+.h1DentroBanner__LosAngeles {
+    font-size: 1.875rem; 
+    font-weight: 800; 
+    color: #fff;
+    border: 3px solid #48e;
+
+}
+
+
+.contenedor-cuadrosColoresLosAngeles {
+    max-width: 80rem; /* max-w-6xl (6xl = 1152px = 72rem) */
+    margin-left: auto; /* mx-auto (centrado horizontal) */
+    margin-right: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+    border: 3px solid #5ff;
+    /* width: 90vw; */
+}
+
+
+.contenedor--cuadroInfo_y_cuadroColoresLosAngeles{
+    border: 3px solid #98f;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+
+
+
+}
+
+/* Cuadrados de Colores */
+.cuadrados-de-coloresLosAngeles {
+    /* display: grid; /* grid */
+    /* grid-template-columns: repeat(1, 1fr); grid-cols-1  */
+    gap: 10px; /* implícito según la configuración de Tailwind */
+
+    margin-bottom: 2rem; /* mb-8 (8 * 0.25rem = 2rem) */
+    border: 2px solid #ad4;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 70vh;
+    background-color: #2774AE;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    position: relative;
+    z-index: 2;
+    right: -5rem;
+    top: 8rem;
+    
+
+
+}
+
+.h1-losAngeles{
+    border: 2px solid #800;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.losAngeles-p{
+    color: #fff;
+    border: 2px solid #5f4;
+    text-align: center;
+}
+
+.div__img-LosAngeles{
+    border: 3px dotted #a23;
+    width: 50%;
+    z-index: 1;
+
+}
+
+.img-losAngeles{
+    border: 3px dotted #3af;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    /* background-size: cover; */
+    object-fit: cover;
+
+}
+
+.contenedor-cuadrosColoresLosAngeles2{
+    min-height: 100vh;
+    max-width: 80rem; /* max-w-6xl (6xl = 1152px = 72rem) */
+    margin-left: auto; /* mx-auto (centrado horizontal) */
+    margin-right: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+    border: 3px solid #5ff;
+    background-color: #E8E5E0;
+}
+
+.losAngeles--h1b{
+    
+    font-size: 42px;
+    color: #520224;
+    border-left:  5px solid #cf2e2e;
+    padding: 5px;
+    margin-left: 40px;
+    font-weight: bold;
+
+
+}
+.losAngeles--h1b span{
+    margin-left: 20px;
+}
+
+.div-container--LA{
+    border: 3px dashed #f33;
+    height: 200vh;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+
+}
+.contenedor-imagenes__LA{
+    border: 3px dashed #54f;
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.LA__img{
+    border: 3px dotted #400;
+    width: 500px;
+    min-height: 350px;
+    object-fit: cover;
+}
+
+.contenedor-parrafos__LA{
+    border: 3px solid #9ba;
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.parrafo--LA{
+    border: 3px solid #ada;
+    width: 500px;
+    min-height: 350px;
+    color: #000;
+    font-size: 18px;
+    
+}
+
+
+.contenedor-cuadrosColoresLosAngeles3{
+    min-height: 100vh;
+    max-width: 80rem; /* max-w-6xl (6xl = 1152px = 72rem) */
+    margin-left: auto; /* mx-auto (centrado horizontal) */
+    margin-right: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+    border: 3px solid #5ff;
+    background-color: #E8E5E0;
+}
+
+.losAngeles--h2C{
+    font-size: 42px;
+    color: #520224;
+    border-left:  5px solid #cf2e2e;
+    padding: 5px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.losAngeles--h2C span{
+    margin-left: 20px;
+}
+.div-container--LA-2{
+    border: 3px dashed #a00;
+    min-height: 70vh;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.dropDown--LA{
+    border: 2px solid #000;
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.DropdownButton--LA{
+    width: 100%;
+    border-radius: none;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+

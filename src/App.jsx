@@ -23,6 +23,7 @@ import Premios from './pages/Premios'
 import ColegiosDocentesEInstituciones from './pages/ColegiosDocentesEInstituciones'
 import ContactoIngreso from './pages/ContactoIngreso'
 import OrientacionVocacional from './pages/OrientacionVocacional'
+import LosAngeles from './pages/LosAngeles'
 // import './App.css'
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
           <Route path='/colegiosDocenEInstitu' element={<ColegiosDocentesEInstituciones/>} />
           <Route path='/contactoIngreso' element={<ContactoIngreso/>} />
           <Route path='/orientacionVocacional' element={<OrientacionVocacional/>} />
+          <Route path='/losAngeles' element={<LosAngeles/>} />
+
 
           </Route>
 

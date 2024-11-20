@@ -5,7 +5,15 @@ import "../Styles/losAngeles.css"
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import SplitButton from 'react-bootstrap/SplitButton';
-import { ButtonGroup } from 'react-bootstrap';
+import { ButtonGroup, DropdownItem } from 'react-bootstrap';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css/navigation';
+import { Keyboard, Pagination, Navigation, Autoplay } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { BookOpen } from 'lucide-react';
 
 function LosAngeles() {
     return (
@@ -75,69 +83,318 @@ function LosAngeles() {
                         <span >College and Majors</span>
                     </h2>
                     <div class='div-container--LA-2'>
-                        <div class='dropDown--LA' >
-                            {['end'].map(
-                                (direction) => (
-                                    <DropdownButton
-                                        as={ButtonGroup}
-                                        // key={direction}
-                                        // id={`dropdown-button-drop-${direction}`}
+                        <div class='div__columna1'>
+                            <div class='dropDown--LA' >
+                                {['end'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
                                             id="dropdown-menu-align-end"
-                                        drop={direction}
-                                        // variant="secondary"
-                                        title= "Show"
-                                        className='DropdownButton--LA'
-                                    >
-                                        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
-                                        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-                                    </DropdownButton>
-                                ),
-                            )}
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Economic and business sciences"
+                                            className='DropdownButton--LA'
+                                            
+                                        >   
+                                            <Dropdown.Item eventKey="1"> → Economy</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Public Accountant</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Statistics</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Finance</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <DropdownItem eventKey="5"> → Bachelor of Administration</DropdownItem>
+                                            <Dropdown.Divider />
+                                            <DropdownItem eventKey="6"> → Bachelor in International Trade</DropdownItem>
+                                            <Dropdown.Divider />
+                                            <DropdownItem eventKey="7"> → Bachelor in Digital Business</DropdownItem>
+                                            <Dropdown.Divider />
+                                            <DropdownItem eventKey="8"> → Bachelor's degree in marketing</DropdownItem>
+                                            <Dropdown.Divider />
+                                            <DropdownItem eventKey="9"> → Marketing</DropdownItem>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
+                            <div class='dropDown--LA' >
+                                {['end'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Law and Political Sciences"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → Law</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Bachelor of Political Science</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Notary</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Real Estate Broker</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → Public auctioneer</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="6"> → International Relations</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="7"> → Political sciences</Dropdown.Item>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
+                            <div class='dropDown--LA' >
+                                {['end'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Technology and Computer Science"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → Programming Technician</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Data Science</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Devops</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Cybersecurity</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → FullStack Developer (Java + React Js)</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="6"> → FullStack Developer (.NET + Angular)</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="7"> → Data Analyst</Dropdown.Item>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
+                            <div class='dropDown--LA' >
+                                {['end'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Medicine and Natural Sciences"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → Medicine</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Bachelor of Nursing</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Dentistry</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Bachelor of Nutrition</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → Bachelor's Degree in Bioimage Production</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="6"> → Bachelor's Degree in Surgical Instrumentation</Dropdown.Item>
+                                            {/* <Dropdown.Item eventKey="7"></Dropdown.Item> */}
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
                         </div>
-                        <div class='dropDown--LA' >
-                            {['end'].map(
-                                (direction) => (
-                                    <DropdownButton
-                                        as={ButtonGroup}
-                                        key={direction}
-                                        id={`dropdown-button-drop-${direction}`}
-                                        drop={direction}
-                                        // variant="secondary"
-                                        title={` Drop ${direction} `}
-                                        className='DropdownButton--LA'
-                                    >
-                                        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
 
-                                        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-                                    </DropdownButton>
-                                ),
-                            )}
+                        <div class='div__columna2'>
+                            <div class='dropDown--LA' >
+                                {['start'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Engineering"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → Industrial Engineering</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Mechanical Engineering</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Chemical Engineering</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Civil Engineering</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → Food Engineering</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="6"> → Systems Engineering</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="7"> → Electrical Engineering</Dropdown.Item>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
+                            <div class='dropDown--LA' >
+                                {['start'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Social Sciences"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → History teacher</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Bachelor of Philosophy</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Geographer</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Bachelor's Degree in Psychology</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → Bachelor's Degree in Sociology</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="6"> → Bachelor's Degree in Social Communication</Dropdown.Item>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
+                            <div class='dropDown--LA' >
+                                {['start'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Design and Construction"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → Architecture</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Graphic Design</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Industrial Design</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Interior Design</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → Construction Inspector</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="6"> → Safety and Hygiene Technician</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="7"> → Bachelor of Advertising</Dropdown.Item>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
+                            <div class='dropDown--LA' >
+                                {['start'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Art, Music and Design"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → Bachelor of Music</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → Musical Composition</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Sound Engineering</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → Multimedia Design</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → Bachelor of Acting</Dropdown.Item>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
+                            <div class='dropDown--LA' >
+                                {['start'].map(
+                                    (direction) => (
+                                        <DropdownButton
+                                            as={ButtonGroup}
+                                            // key={direction}
+                                            // id={`dropdown-button-drop-${direction}`}
+                                            id="dropdown-menu-align-end"
+                                            drop={direction}
+                                            // variant="secondary"
+                                            title="Languajes and Translations"
+                                            className='DropdownButton--LA'
+                                        >
+                                            <Dropdown.Item eventKey="1"> → English</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="2"> → English Translator</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="3"> → Italian</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="4"> → French</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="5"> → Mandarin Chinese</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="6"> → Portuguese</Dropdown.Item>
+                                            <Dropdown.Divider />
+                                            <Dropdown.Item eventKey="7"> → German</Dropdown.Item>
+                                        </DropdownButton>
+                                    ),
+                                )}
+                            </div>
                         </div>
-                        <div class='dropDown--LA' >
-                            {['end'].map(
-                                (direction) => (
-                                    <DropdownButton
-                                        as={ButtonGroup}
-                                        key={direction}
-                                        id={`dropdown-button-drop-${direction}`}
-                                        drop={direction}
-                                        variant="secondary"
-                                        title={` Drop ${direction} `}
-                                        className='DropdownButton--LA'
-                                    >
-                                        <Dropdown.Item eventKey="1">Action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-                                        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
 
-                                        <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
-                                    </DropdownButton>
-                                ),
-                            )}
-                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="contenedor-cuadrosColoresLosAngeles2 max-w-6xl mx-auto p-6">
+                    <h1 className='losAngeles--h1D'>
+                        <span >Gallery</span>
+                    </h1>
+                    <div class='div-container--LA-gallery'>
+                        <Swiper
+                            slidesPerView={3}
+                            spaceBetween={30}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }}
+                            keyboard={{
+                                enabled: true,
+                            }}
+                            pagination={{
+                                clickable: true,
+                                // el: '.custom-pagination',
+                            }}
+                            navigation={true}  // Activar navegación con flechas
+                            modules={[Keyboard, Navigation, Autoplay, Pagination]}
+                            className="mySwiper5"
+                        >
+                            <SwiperSlide  ><img style={{objectFit:"cover"}} src="https://fastly.4sqi.net/img/general/600x600/29667004_Ag_kVDjIf6zTOQSEBzPXmtsIe-XVy6ijNkl9IDxluVg.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20176/5968fbb62cfac26778007be6_UCLA+sign/UCLA+sign_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20125/52e70ee4f6091d782f0001ed__U7H2410/_U7H2410_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://www.econ.ucsb.edu/sites/default/files/styles/medium_landscape/public/2020-09/storke-panorama-graduate-banner.jpg?itok=Idb7pVTG" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://media.istockphoto.com/id/2115729550/es/foto/girvetz-hall-departamento-de-matem%C3%A1ticas-ling%C3%BC%C3%ADstica-y-m%C3%A1s-ucsb-santa-b%C3%A1rbara-california.jpg?s=612x612&w=0&k=20&c=Ird052-aRYUumztEnBefvsbeMd6qa6ESXKr2DK3juJs=" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cae948d2cfac23fe70d1479_8x_Pauley+Pavilion_N+Entrance_01/8x_Pauley+Pavilion_N+Entrance_01_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc7eb2cfac23fe70d8f59_Janss+Steps_001/Janss+Steps_001_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc7f32cfac23fe70d8f5b_Royce_021/Royce_021_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc8922cfac23fe80f5cd6_Alpert+School+of+Music_07/Alpert+School+of+Music_07_thmb.jpg" alt="" /></SwiperSlide>
+                        </Swiper>
 
                     </div>
                 </div>

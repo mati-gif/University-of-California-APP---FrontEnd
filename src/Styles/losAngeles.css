@@ -213,7 +213,7 @@
     margin-right: auto; /* mx-auto */
     padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
     border: 3px solid #5ff;
-    background-color: #E8E5E0;
+    background-color: #fff;
 }
 
 .losAngeles--h2C{
@@ -230,33 +230,33 @@
 }
 .div-container--LA-2{
     border: 3px dashed #a00;
-    min-height: 70vh;
+    min-height: 100vh;
+    /* height: 300px; */
     width: 100%;
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
+    gap: 30rem;
 }
 
 .dropDown--LA{
-    border: 2px solid #000;
-    width: 200px;
-    height: 50px;
+    width: 305px;
+    height: 70px;
     margin-left: 50px;
+    border: 3px solid #000;
 }
 
-.DropdownButton--LA{
-    width: 100%;
-    border-radius: none;
-    height: 100%;
-   
-}
 
 #dropdown-menu-align-end{
     background-color: #FFF;
     border-radius: initial;
     color: #000;
+    font-size: 18px;
+    height:65px;
+    width: 300px;
+    
+
 }
 
 #dropdown-menu-align-end:hover{
@@ -265,12 +265,58 @@
 
 }
 
+#dropdown-menu-align-end:focus{
+    background-color: #520236;
+    color: #fff;
+}
 
 
 
 
+.div__columna1{
+    border: 3px solid #48e;
+
+
+}
+
+.div__columna2{
+    border: 3px solid #f54;
+
+}
+
+
+.div-container--LA-gallery{
+    border: 3px dashed #a00;
+    min-height: 70vh;
+    /* height: 300px; */
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+}
 
 
 
+.mySwiper5{
+    border: 3px dotted #445;
+    height: 60vh;
+    width: 100vw;
+}
+
+.losAngeles--h1D{
+    
+    font-size: 42px;
+    color: #520224;
+    border-left:  5px solid #cf2e2e;
+    padding: 5px;
+    margin-left: 40px;
+    font-weight: bold;
 
 
+}
+
+.losAngeles--h1D span{
+    margin-left: 20px;
+}

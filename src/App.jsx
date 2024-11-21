@@ -24,6 +24,7 @@ import ColegiosDocentesEInstituciones from './pages/ColegiosDocentesEInstitucion
 import ContactoIngreso from './pages/ContactoIngreso'
 import OrientacionVocacional from './pages/OrientacionVocacional'
 import LosAngeles from './pages/LosAngeles'
+import SanDiego from './pages/SanDiego'
 // import './App.css'
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           <Route path='/contactoIngreso' element={<ContactoIngreso/>} />
           <Route path='/orientacionVocacional' element={<OrientacionVocacional/>} />
           <Route path='/losAngeles' element={<LosAngeles/>} />
+          <Route path='/sanDiego' element={<SanDiego/>} />
 
 
           </Route>

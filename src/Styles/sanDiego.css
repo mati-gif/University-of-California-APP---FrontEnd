@@ -1,0 +1,313 @@
+.sanDiego {
+  min-height: 100vh;
+  border: 5px solid #2e2;
+  width: 100vw;
+  margin-top: 86px;
+}
+
+.banner-sanDiego {
+  position: relative; /* relative */
+  background-image: url("https://ucsd.edu/_images/about/visiting-tours/img-hero-visiting-tours3.jpg"); /* bg-[url(...)] */
+  background-size: cover; /* bg-cover */
+  background-position: center; /* bg-center */
+  background-repeat: no-repeat; /* bg-no-repeat */
+  /* background-color: #DC3170; */
+  /* height: 100vh; */
+}
+
+/* Simple Div */
+/* Simple Div */
+.simple-div__sanDiego {
+  position: absolute; /* absolute */
+  inset: 0; /* inset-0 */
+  /* background-color: rgba(255, 255, 255, 0.45); bg-white/75 */
+}
+
+/* Simple Div 2 */
+.simple-div2--sanDiego {
+  position: relative; /* relative */
+  margin-inline: auto; /* mx-auto */
+  max-width: 100%; /* max-w-screen-xl */
+  max-width: 1280px; /* Tamaño exacto para Tailwind `max-w-screen-xl` */
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+  padding-top: 8rem; /* py-32 */
+  padding-bottom: 8rem; /* py-32 */
+  border: 3px solid #dd6;
+}
+
+/* Div Dentro Banner */
+.divDentroBanner-sanDiego {
+  max-width: 36rem; /* max-w-xl */
+  text-align: center; /* text-center */
+  border: 3px solid #edd;
+}
+
+/* H1 Dentro Banner */
+.h1DentroBanner__sanDiego {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: #fff;
+  border: 3px solid #48e;
+}
+
+.contenedor-cuadrosColoresSanDiego5 {
+  min-height: 100vh;
+  max-width: 100%; /* max-w-6xl (6xl = 1152px = 72rem) */
+  margin-left: auto; /* mx-auto (centrado horizontal) */
+  margin-right: auto; /* mx-auto */
+  padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+  border: 3px solid #5ff;
+  background-color: #fff;
+}
+
+.sanDiego--h1G {
+  font-size: 42px;
+  color: #520224;
+  padding: 5px;
+  font-weight: bold;
+  border: 2px solid #de5;
+}
+
+.div-container--SD {
+  border: 3px dashed #f33;
+  height: 225vh;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div-SD {
+  border: 2px solid #87a;
+  height: 400px;
+  background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-4.jpg");
+  background-size: cover;
+}
+
+.segundo__div-SD {
+  border: 2px solid #651;
+  height: 500px;
+  display: flex;
+  background-color: #f5f0e6;
+}
+
+.contaier-img__SD {
+  border: 3px dotted #98d;
+  width: 500vw;
+}
+
+.tercer__div-SD {
+  border: 2px solid #6df;
+  height: 500px;
+  display: flex;
+  background-color: #f5f0e6;
+  background-image: url("https://ucsd.edu/_images/about/visiting-tours/img-visiting-tours-getting-to-campus.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.div-izquierdo {
+  border: 3px solid #4aa;
+  height: 250px;
+  width: 550px;
+  background-color: #00629b;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.h1__izquierdo {
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+}
+
+.p-izquierdo-SD {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* From Uiverse.io by gharsh11032000 */
+/* From Uiverse.io by AqFox */
+#button_map {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+}
+
+#button_map:before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2c9caf;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+#button_map:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+#button_map:hover::before {
+  width: 250%;
+}
+
+#button_map a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.div-container2--SD {
+  border: 3px dashed #f33;
+  height: 85vh;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+}
+
+.contaier-img__SD2 {
+  border: 3px dotted #98d;
+  width: 100vw;
+  height: 100%;
+}
+
+.contenedor-cuadrosColoresSanDiego6 {
+  min-height: 100vh;
+  max-width: 100%; /* max-w-6xl (6xl = 1152px = 72rem) */
+  margin-left: auto; /* mx-auto (centrado horizontal) */
+  margin-right: auto; /* mx-auto */
+  padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+  border: 3px solid #4a5;
+  background-color: #fff;
+}
+
+.div-container--SD2 {
+  border: 3px dashed #f33;
+  height: 100vh;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div-SD2 {
+  border: 2px solid #87a;
+  height: 100%;
+  background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-4.jpg");
+  background-size: cover;
+}
+
+.div-container--LA-2 {
+  border: 3px dashed #a00;
+  min-height: 100vh;
+  /* height: 300px; */
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30rem;
+}
+
+.dropDown--LA {
+  width: 305px;
+  height: 70px;
+  margin-left: 50px;
+  border: 3px solid #000;
+}
+
+#dropdown-menu-align-end {
+  background-color: #fff;
+  border-radius: initial;
+  color: #000;
+  font-size: 18px;
+  height: 65px;
+  width: 300px;
+}
+
+#dropdown-menu-align-end:hover {
+  background-color: #00629b;
+  color: #fff;
+}
+
+#dropdown-menu-align-end:focus {
+  background-color: #00629b;
+  color: #fff;
+}
+
+.div__columna1 {
+  border: 3px solid #48e;
+}
+
+.div__columna2 {
+  border: 3px solid #f54;
+}
+
+.div-container--LA-gallery {
+  border: 3px dashed #a00;
+  min-height: 70vh;
+  /* height: 300px; */
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30rem;
+}
+
+
+.contenedor-cuadrosColoresSanDiego7 {
+    min-height: 100vh;
+    max-width: 100%; /* max-w-6xl (6xl = 1152px = 72rem) */
+    margin-left: auto; /* mx-auto (centrado horizontal) */
+    margin-right: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+    border: 3px solid #4a5;
+    background-color: #fff;
+  }
+
+  .div-container--SD3 {
+    border: 3px dashed #f33;
+    height: 200vh;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .div-SD3 {
+    border: 2px solid #87a;
+    height: 100%;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-4.jpg");
+    background-size: cover;
+  }
+
+.div-container--LA-3 {
+    border: 3px dashed #48e;
+    min-height: 100vh;
+    /* height: 300px; */
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+  }
+  

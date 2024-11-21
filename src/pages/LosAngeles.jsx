@@ -74,6 +74,7 @@ function LosAngeles() {
                             </div>
                             <div class='parrafo--LA'>
                                 <p>From hard sciences to studio art and all points in between, your educational opportunities abound at UCSB. We offer more than 200 majors, degrees and credentials, a number that includes 90+ undergraduate majors and more than 50 graduate programs.</p>
+
                             </div>
                         </div>
                     </div>
@@ -96,8 +97,8 @@ function LosAngeles() {
                                             // variant="secondary"
                                             title="Economic and business sciences"
                                             className='DropdownButton--LA'
-                                            
-                                        >   
+
+                                        >
                                             <Dropdown.Item eventKey="1"> → Economy</Dropdown.Item>
                                             <Dropdown.Divider />
                                             <Dropdown.Item eventKey="2"> → Public Accountant</Dropdown.Item>
@@ -385,15 +386,15 @@ function LosAngeles() {
                             modules={[Keyboard, Navigation, Autoplay, Pagination]}
                             className="mySwiper5"
                         >
-                            <SwiperSlide  ><img style={{objectFit:"cover"}} src="https://fastly.4sqi.net/img/general/600x600/29667004_Ag_kVDjIf6zTOQSEBzPXmtsIe-XVy6ijNkl9IDxluVg.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20176/5968fbb62cfac26778007be6_UCLA+sign/UCLA+sign_thmb.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20125/52e70ee4f6091d782f0001ed__U7H2410/_U7H2410_thmb.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://www.econ.ucsb.edu/sites/default/files/styles/medium_landscape/public/2020-09/storke-panorama-graduate-banner.jpg?itok=Idb7pVTG" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://media.istockphoto.com/id/2115729550/es/foto/girvetz-hall-departamento-de-matem%C3%A1ticas-ling%C3%BC%C3%ADstica-y-m%C3%A1s-ucsb-santa-b%C3%A1rbara-california.jpg?s=612x612&w=0&k=20&c=Ird052-aRYUumztEnBefvsbeMd6qa6ESXKr2DK3juJs=" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cae948d2cfac23fe70d1479_8x_Pauley+Pavilion_N+Entrance_01/8x_Pauley+Pavilion_N+Entrance_01_thmb.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc7eb2cfac23fe70d8f59_Janss+Steps_001/Janss+Steps_001_thmb.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc7f32cfac23fe70d8f5b_Royce_021/Royce_021_thmb.jpg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img style={{objectFit:"cover"}} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc8922cfac23fe80f5cd6_Alpert+School+of+Music_07/Alpert+School+of+Music_07_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide  ><img style={{ objectFit: "cover" }} src="https://fastly.4sqi.net/img/general/600x600/29667004_Ag_kVDjIf6zTOQSEBzPXmtsIe-XVy6ijNkl9IDxluVg.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20176/5968fbb62cfac26778007be6_UCLA+sign/UCLA+sign_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20125/52e70ee4f6091d782f0001ed__U7H2410/_U7H2410_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://www.econ.ucsb.edu/sites/default/files/styles/medium_landscape/public/2020-09/storke-panorama-graduate-banner.jpg?itok=Idb7pVTG" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://media.istockphoto.com/id/2115729550/es/foto/girvetz-hall-departamento-de-matem%C3%A1ticas-ling%C3%BC%C3%ADstica-y-m%C3%A1s-ucsb-santa-b%C3%A1rbara-california.jpg?s=612x612&w=0&k=20&c=Ird052-aRYUumztEnBefvsbeMd6qa6ESXKr2DK3juJs=" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cae948d2cfac23fe70d1479_8x_Pauley+Pavilion_N+Entrance_01/8x_Pauley+Pavilion_N+Entrance_01_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc7eb2cfac23fe70d8f59_Janss+Steps_001/Janss+Steps_001_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc7f32cfac23fe70d8f5b_Royce_021/Royce_021_thmb.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img style={{ objectFit: "cover" }} src="https://s3.amazonaws.com/cms.ipressroom.com/173/files/20193/5cafc8922cfac23fe80f5cd6_Alpert+School+of+Music_07/Alpert+School+of+Music_07_thmb.jpg" alt="" /></SwiperSlide>
                         </Swiper>
 
                     </div>

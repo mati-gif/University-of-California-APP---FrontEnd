@@ -39,10 +39,11 @@ function SedesHome() {
                             <h2>San Diego</h2>
                             <p>9500 Gilman Dr, La Jolla, CA 92093<br />LA - California</p>
                             {/* <a href="#">More info →</a> */}
-                            
+                            <Link to="/sanDiego">
                             <button class='boton-sede'>
                             More info →
                             </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

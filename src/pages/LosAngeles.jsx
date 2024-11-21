@@ -74,7 +74,11 @@ function LosAngeles() {
                             </div>
                             <div class='parrafo--LA'>
                                 <p>From hard sciences to studio art and all points in between, your educational opportunities abound at UCSB. We offer more than 200 majors, degrees and credentials, a number that includes 90+ undergraduate majors and more than 50 graduate programs.</p>
-
+                                <div style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"100px" }}>
+                                    <button id='buttonSD_map' class="custom-btn btn-5">
+                                        <a href="https://www.maps.ucla.edu/?id=2043#!ct/75713?s/" target='blank'> Campus Map</a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -539,6 +539,20 @@ function SanDiego() {
                             </div>
                         </div>
                     </div>
+                    <div class='div-container2--SD'>
+                        <div>
+                            <h2 style={{ width: "41vw", border: "2px solid #456", color: "#182B49", marginLeft: "20px", marginTop: "30px", fontSize: "50px" }}>
+                            LIBRARY
+                            </h2>
+                            <p style={{ border: "2px solid #456", color: "#182B49", marginLeft: "20px", minHeight: "100px", width: "90%", fontSize: "20px" }} >
+                            With study spaces, labs and access to the largest university research library system in the world, the Library is the perfect place to follow your curiosity and think outside the box.
+                            </p>
+                        </div>
+
+                        <div style={{width:"100vw",height:"100%"}} >
+                            <img style={{ zIndex:"1",border: "2px solid #456", color: "#182B49", width: "100%", height: "100%" }} src="https://ucsd.edu/_images/about/visiting-tours/img-visiting-tours-library.jpg" alt="" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import "swiper/css/bundle"
 import 'swiper/css/navigation';
+import { Link } from 'react-router-dom';
 
 function CarreerCarouselHome() {
 
@@ -52,7 +53,9 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Immerse yourself and study the world of economics, administration, accounting and  among others.
                                 </Card.Text>
+                                <Link to="/cienciasEconomicas">
                                 <Button variant="primary">View all the Carreers</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>

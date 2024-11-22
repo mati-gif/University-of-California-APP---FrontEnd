@@ -208,7 +208,7 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     "Let your passion for languages soar with our programs. Discover all your options by clicking the button below
                                 </Card.Text>
-                                <Link to="">
+                                <Link to="/idiomas">
                                 <Button variant="primary">View all the Carreers</Button>
                                 </Link>
                             </Card.Body>

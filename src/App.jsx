@@ -33,6 +33,7 @@ import Ingenieria from './pages/Ingenieria'
 import CienciasSociales from './pages/CienciasSociales'
 import Construccion from './pages/Construccion'
 import MusicaYDiseño from './pages/MusicaYDiseño'
+import Idiomas from './pages/Idiomas'
 // import './App.css'
 
 function App() {
@@ -68,6 +69,8 @@ function App() {
           <Route path='/cienciasSociales' element={<CienciasSociales/>} />
           <Route path='/construccion' element={<Construccion/>} />
           <Route path='/musica' element={<MusicaYDiseño/>} />
+          <Route path='/idiomas' element={<Idiomas/>} />
+
 
 
 

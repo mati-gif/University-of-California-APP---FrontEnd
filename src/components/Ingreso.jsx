@@ -89,25 +89,6 @@ export default function Ingreso() {
                             <SwiperSlide style={{ textAlign: "center", fontSize: "18px", display: "flex", justifyContent: "center", alignItems: "center", border: "3px dotted #789" }}>
                                 <div class="magic-card">
                                     <div class="magic-image">
-                                        <img src="https://wadmin.uca.edu.ar/public/filters/medium/public/20210828/1630191131_Marketing.jpg" alt="" />
-                                    </div>
-                                    <div class="magic-content">
-                                        <p class="magic-title2">
-                                            Check your equivalences
-                                        </p>
-                                        <button class="learn-more">
-                                            <span class="circle" aria-hidden="true">
-                                                <span class="icon arrow"></span>
-                                            </span>
-                                            <span class="button-text">Learn More</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide style={{ textAlign: "center", fontSize: "18px", display: "flex", justifyContent: "center", alignItems: "center", border: "3px dotted #789" }}>
-                                <div class="magic-card">
-                                    <div class="magic-image">
                                         <img src="https://wadmin.uca.edu.ar/public/filters/medium/public/20171211/5a2ea93467881.jpg" alt="" />
                                     </div>
                                     <div class="magic-content">

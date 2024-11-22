@@ -153,7 +153,9 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Explore this world by becoming the best historian or perhaps geographer and others great options
                                 </Card.Text>
+                                <Link to="/cienciasSociales">
                                 <Button variant="primary">View all the Carreers</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>
@@ -170,7 +172,9 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Become the best designer. We offer careers in architecture, graphic design and more. Explore each option!
                                 </Card.Text>
+                                <Link to="">
                                 <Button variant="primary">View all the Carreers</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>

@@ -172,7 +172,7 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Become the best designer. We offer careers in architecture, graphic design and more. Explore each option!
                                 </Card.Text>
-                                <Link to="">
+                                <Link to="/construccion">
                                 <Button variant="primary">View all the Carreers</Button>
                                 </Link>
                             </Card.Body>
@@ -190,7 +190,9 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Let your creativity and taste for music fly with our careers. Explore each of our options by clicking on the button
                                 </Card.Text>
+                                <Link to="">
                                 <Button variant="primary">View all the Carreers</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>
@@ -206,7 +208,9 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     "Let your passion for languages soar with our programs. Discover all your options by clicking the button below
                                 </Card.Text>
+                                <Link to="">
                                 <Button variant="primary">View all the Carreers</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>

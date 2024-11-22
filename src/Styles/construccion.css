@@ -1,0 +1,56 @@
+.construccion{
+    min-height: 100vh;
+    border: 5px solid #2e2;
+    width: 100vw;
+    margin-top: 86px;
+}
+
+
+.banner-construccion {
+    position: relative; /* relative */
+    background-image: url('https://www.uade.edu.ar/media/jw4ikwho/2528969.jpg?crop=0.0000000000000001263187085796,0.333307378857484,0,0.20883353755407752&cropmode=percentage&width=1900&height=580&rnd=132258903610000000'); /* bg-[url(...)] */
+    background-size: cover; /* bg-cover */
+    background-position: center; /* bg-center */
+    background-repeat: no-repeat; /* bg-no-repeat */
+    /* background-color: #DC3170; */
+    height: 50vh;
+}
+
+/* Simple Div */
+/* Simple Div */
+.simple-div__construccion{
+    position: absolute; /* absolute */
+    inset: 0; /* inset-0 */
+    /* background-color: rgba(255, 255, 255, 0.45); bg-white/75 */
+}
+
+
+/* Simple Div 2 */
+.simple-div2--construccion {
+    position: relative; /* relative */
+    margin-inline: auto; /* mx-auto */
+    max-width: 100%; /* max-w-screen-xl */
+    max-width: 1280px; /* Tamaño exacto para Tailwind `max-w-screen-xl` */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    padding-top: 8rem; /* py-32 */
+    padding-bottom: 8rem; /* py-32 */
+    border: 3px solid #dd6;
+}
+
+/* Div Dentro Banner */
+.divDentroBanner-construccion {
+    max-width: 36rem; /* max-w-xl */
+    text-align: center; /* text-center */
+    border: 3px solid #edd;
+
+}
+
+/* H1 Dentro Banner */
+.h1DentroBanner__construccion {
+    font-size: 1.875rem; 
+    font-weight: 800; 
+    color: #fff;
+    border: 3px solid #48e;
+
+}

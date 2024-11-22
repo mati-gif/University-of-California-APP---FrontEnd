@@ -29,6 +29,7 @@ import CienciasEconomicas from './pages/CienciasEconomicas'
 import DerechoYCienciasPoliticas from './pages/DerechoYCienciasPoliticas'
 import IT from './pages/IT'
 import Medicine from './pages/Medicine'
+import Ingenieria from './pages/Ingenieria'
 // import './App.css'
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
           <Route path='/derecho' element={<DerechoYCienciasPoliticas/>} />
           <Route path='/IT' element={<IT/>} />
           <Route path='/medicine' element={<Medicine/>} />
+          <Route path='/ingenieria' element={<Ingenieria/>} />
 
 
 

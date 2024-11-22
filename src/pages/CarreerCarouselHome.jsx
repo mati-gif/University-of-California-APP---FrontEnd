@@ -54,7 +54,7 @@ function CarreerCarouselHome() {
                                     Immerse yourself and study the world of economics, administration, accounting and  among others.
                                 </Card.Text>
                                 <Link to="/cienciasEconomicas">
-                                <Button variant="primary">View all the Carreers</Button>
+                                    <Button variant="primary">View all the Carreers</Button>
                                 </Link>
                             </Card.Body>
                         </Card>
@@ -74,7 +74,7 @@ function CarreerCarouselHome() {
                                     For those who are passionate about law and politics, these careers are for you . Clic button to explore all
                                 </Card.Text>
                                 <Link to="/derecho">
-                                <Button variant="primary">View all the Carreers</Button>
+                                    <Button variant="primary">View all the Carreers</Button>
                                 </Link>
                             </Card.Body>
                         </Card>
@@ -94,7 +94,7 @@ function CarreerCarouselHome() {
                                     Explore everything related to new technologies and become a master
                                 </Card.Text>
                                 <Link to="/IT">
-                                <Button variant="primary">View all the Carreers</Button>
+                                    <Button variant="primary">View all the Carreers</Button>
                                 </Link>
                             </Card.Body>
                         </Card>
@@ -113,7 +113,10 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Immerse yourself in the great world of medicine and science. Are you ready ?
                                 </Card.Text>
-                                <Button variant="primary">View all the Carreers</Button>
+                                <Link to="/medicine">
+                                    <Button variant="primary">View all the Carreers</Button>
+                                </Link>
+
                             </Card.Body>
                         </Card>
                     </SwiperSlide>
@@ -146,7 +149,7 @@ function CarreerCarouselHome() {
                             <Card.Body>
                                 <Card.Title>Social Sciences</Card.Title>
                                 <Card.Text>
-                                Explore this world by becoming the best historian or perhaps geographer and others great options 
+                                    Explore this world by becoming the best historian or perhaps geographer and others great options
                                 </Card.Text>
                                 <Button variant="primary">View all the Carreers</Button>
                             </Card.Body>
@@ -170,7 +173,7 @@ function CarreerCarouselHome() {
                         </Card>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '18rem' }}>
                             <Card.Img style={{
                                 objectFit: "cover",
 
@@ -179,14 +182,14 @@ function CarreerCarouselHome() {
                             <Card.Body>
                                 <Card.Title>Art, Music and Design</Card.Title>
                                 <Card.Text>
-                                Let your creativity and taste for music fly with our careers. Explore each of our options by clicking on the button
+                                    Let your creativity and taste for music fly with our careers. Explore each of our options by clicking on the button
                                 </Card.Text>
                                 <Button variant="primary">View all the Carreers</Button>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '18rem' }}>
                             <Card.Img style={{
                                 objectFit: "cover",
 
@@ -195,7 +198,7 @@ function CarreerCarouselHome() {
                             <Card.Body>
                                 <Card.Title>Languages ​​and Translations</Card.Title>
                                 <Card.Text>
-                                "Let your passion for languages soar with our programs. Discover all your options by clicking the button below
+                                    "Let your passion for languages soar with our programs. Discover all your options by clicking the button below
                                 </Card.Text>
                                 <Button variant="primary">View all the Carreers</Button>
                             </Card.Body>
@@ -206,7 +209,7 @@ function CarreerCarouselHome() {
             </div>
 
         </>
-    
+
     )
 }
 

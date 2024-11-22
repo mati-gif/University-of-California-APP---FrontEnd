@@ -190,7 +190,7 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Let your creativity and taste for music fly with our careers. Explore each of our options by clicking on the button
                                 </Card.Text>
-                                <Link to="">
+                                <Link to="/musica">
                                 <Button variant="primary">View all the Carreers</Button>
                                 </Link>
                             </Card.Body>

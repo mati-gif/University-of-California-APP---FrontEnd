@@ -73,7 +73,9 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     For those who are passionate about law and politics, these careers are for you . Clic button to explore all
                                 </Card.Text>
+                                <Link to="/derecho">
                                 <Button variant="primary">View all the Carreers</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>

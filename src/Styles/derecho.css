@@ -1,0 +1,147 @@
+.derecho-container{
+    min-height: 100vh;
+    border: 5px solid #2e2;
+    width: 100vw;
+    margin-top: 86px;
+}
+
+.banner-derecho {
+    position: relative; /* relative */
+    background-image: url('https://admissions.ucsd.edu//_resources/img/departments-bg7.jpg'); /* bg-[url(...)] */
+    background-size: cover; /* bg-cover */
+    background-position: center; /* bg-center */
+    background-repeat: no-repeat; /* bg-no-repeat */
+    /* background-color: #DC3170; */
+    height: 50vh;
+}
+
+/* Simple Div */
+/* Simple Div */
+.simple-div__derecho{
+    position: absolute; /* absolute */
+    inset: 0; /* inset-0 */
+    /* background-color: rgba(255, 255, 255, 0.45); bg-white/75 */
+}
+
+
+/* Simple Div 2 */
+.simple-div2--derecho {
+    position: relative; /* relative */
+    margin-inline: auto; /* mx-auto */
+    max-width: 100%; /* max-w-screen-xl */
+    max-width: 1280px; /* Tamaño exacto para Tailwind `max-w-screen-xl` */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    padding-top: 8rem; /* py-32 */
+    padding-bottom: 8rem; /* py-32 */
+    border: 3px solid #dd6;
+}
+
+/* Div Dentro Banner */
+.divDentroBanner-derecho {
+    max-width: 36rem; /* max-w-xl */
+    text-align: center; /* text-center */
+    border: 3px solid #edd;
+
+}
+
+/* H1 Dentro Banner */
+.h1DentroBanner__derecho {
+    font-size: 1.875rem; 
+    font-weight: 800; 
+    color: #fff;
+    border: 3px solid #48e;
+
+}
+
+
+
+
+.contenedor-cuadrosColoresCienciasEconomicas {
+    max-width: 80rem; /* max-w-6xl (6xl = 1152px = 72rem) */
+    margin-left: auto; /* mx-auto (centrado horizontal) */
+    margin-right: auto; /* mx-auto */
+    padding: 1.5rem; /* p-6 (6 * 0.25rem = 1.5rem) */
+    border: 3px solid #5ff;
+    /* width: 90vw; */
+
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    min-height: 80vh;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.divDE{
+    border: 2px solid #654;
+    height: 65%; /* Altura fija */
+}
+
+
+.img__DE{
+    height: 100%; /* Altura fija */
+    width: 100%;
+    border: 3px solid #3f3;
+    object-fit: cover;
+    object-position:center;
+}
+
+
+.tituloDE{
+    border: 2px solid #453;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.div__img--DE--3 {
+    display: flex; /* Equivale a `flex` */
+    align-items: center; /* Equivale a `items-center` */
+    margin-top: 0.5rem; /* Equivale a `mt-2` (8px) */
+    border: 3px solid #48e;
+    justify-content: space-between;
+
+}
+
+.span--DE-2 {
+    margin-right: 0.5rem; /* Equivale a `mr-2` (8px) */
+    border: 3px dashed #b42;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.div--DE-Iconos {
+    display: flex; /* Equivale a `flex` */
+    align-items: center; /* Equivale a `items-center` */
+    justify-content: center;
+    color: #000; /* Equivale a `text-white` */
+    font-size: 0.75rem; /* Equivale a `text-xs` (12px) */
+    border: 3px solid #601;
+
+}
+
+
+
+.span--DE {
+    background-color: #b71c1c; /* Equivale a `bg-[#b71c1c]` */
+    color: white; /* Equivale a `text-white` */
+    font-size: 12px; /* Equivale a `text-xs` (12px) */
+    font-weight: 600; /* Equivale a `font-semibold` */
+    margin-right: 0.5rem; /* Equivale a `mr-2` (8px) */
+    padding: 0.125rem 0.5rem; /* Equivale a `py-0.5 px-2` (2px arriba/abajo y 8px izquierda/derecha) */
+    border-radius: 0.25rem; /* Equivale a `rounded` (4px) */
+}
+
+
+.gorroGraduacion__DE,.monitor-DE  {
+    width: 30px; /* Equivale a `w-4` (16px) */
+    height: 30px; /* Equivale a `h-4` (16px) */
+    margin-right: 0.25rem; /* Equivale a `mr-1` (4px) */
+    border: 3px dashed #b42;
+
+}

@@ -26,6 +26,7 @@ import OrientacionVocacional from './pages/OrientacionVocacional'
 import LosAngeles from './pages/LosAngeles'
 import SanDiego from './pages/SanDiego'
 import CienciasEconomicas from './pages/CienciasEconomicas'
+import DerechoYCienciasPoliticas from './pages/DerechoYCienciasPoliticas'
 // import './App.css'
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path='/losAngeles' element={<LosAngeles/>} />
           <Route path='/sanDiego' element={<SanDiego/>} />
           <Route path='/cienciasEconomicas' element={<CienciasEconomicas/>} />
+          <Route path='/derecho' element={<DerechoYCienciasPoliticas/>} />
 
 
 

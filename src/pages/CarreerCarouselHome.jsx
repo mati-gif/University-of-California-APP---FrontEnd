@@ -93,7 +93,9 @@ function CarreerCarouselHome() {
                                 <Card.Text>
                                     Explore everything related to new technologies and become a master
                                 </Card.Text>
+                                <Link to="/IT">
                                 <Button variant="primary">View all the Carreers</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </SwiperSlide>

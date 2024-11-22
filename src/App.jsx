@@ -27,6 +27,7 @@ import LosAngeles from './pages/LosAngeles'
 import SanDiego from './pages/SanDiego'
 import CienciasEconomicas from './pages/CienciasEconomicas'
 import DerechoYCienciasPoliticas from './pages/DerechoYCienciasPoliticas'
+import IT from './pages/IT'
 // import './App.css'
 
 function App() {
@@ -56,6 +57,8 @@ function App() {
           <Route path='/sanDiego' element={<SanDiego/>} />
           <Route path='/cienciasEconomicas' element={<CienciasEconomicas/>} />
           <Route path='/derecho' element={<DerechoYCienciasPoliticas/>} />
+          <Route path='/IT' element={<IT/>} />
+
 
 
 

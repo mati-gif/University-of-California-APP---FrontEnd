@@ -1,0 +1,208 @@
+/* .login{
+    min-height: 100vh;
+    border: 5px solid #2e2;
+    width: 100vw;
+    margin-top: 86px;
+} */
+
+.section__Login {
+    position: relative; /* Equivale a `relative` */
+    display: flex; /* Equivale a `flex` */
+    flex-wrap: wrap; /* Equivale a `flex-wrap` */
+    border: 3px solid #48e;
+    width: 100vw;
+}
+
+.closeButton-login{
+    border: 3px solid #aa1;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+}
+.section-div--logIN1 {
+    width: 100%; /* Equivale a `w-full` */
+    padding-left: 1rem; /* Equivale a `px-4` */
+    padding-right: 1rem; /* Equivale a `px-4` */
+    padding-top: 3rem; /* Equivale a `py-12` */
+    padding-bottom: 3rem; /* Equivale a `py-12` */
+    border: 3px solid #48e;
+}
+
+.div--2__logIN {
+    margin-left: auto; /* Equivale a `mx-auto` */
+    margin-right: auto; /* Equivale a `mx-auto` */
+    max-width: 32rem; /* Equivale a `max-w-lg` */
+    text-align: center; /* Equivale a `text-center` */
+}
+
+.h1__div__login {
+    font-size: 1.5rem; /* Equivale a `text-2xl` */
+    font-weight: 700; /* Equivale a `font-bold` */
+}
+
+.p__div__login {
+    margin-top: 1rem; /* Equivale a `mt-4` */
+    color: #6b7280; /* Equivale a `text-gray-500` */
+}
+
+
+.form__form-login {
+    margin-left: auto; /* Equivale a `mx-auto` */
+    margin-right: auto; /* Equivale a `mx-auto` */
+    margin-bottom: 0; /* Equivale a `mb-0` */
+    margin-top: 2rem; /* Equivale a `mt-8` */
+    max-width: 28rem; /* Equivale a `max-w-md` */
+    gap: 1rem; /* Para los espacios entre los elementos del formulario (equivalente a `space-y-4`) */
+    display: flex;
+    flex-direction: column;
+}
+
+.sr-only--login{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+
+.input__email-login {
+    width: 100%; /* Equivale a `w-full` */
+    border-radius: 0.5rem; /* Equivale a `rounded-lg` */
+    border: 1px solid #e5e7eb; /* Equivale a `border-gray-200` */
+    padding: 1rem; /* Equivale a `p-4` */
+    padding-right: 3rem; /* Equivale a `pe-12` */
+    font-size: 0.875rem; /* Equivale a `text-sm` */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Equivale a `shadow-sm` */
+}
+
+.span__login--span {
+    position: absolute; /* Equivale a `absolute` */
+    top: 0; /* Parte de `inset-y-0` (inserción vertical en ambos extremos) */
+    bottom: 0; /* Parte de `inset-y-0` */
+    right: 0; /* Equivale a `end-0` (alineación al final horizontal) */
+    display: grid; /* Equivale a `grid` */
+    place-content: center; /* Centra el contenido en ambas direcciones */
+    padding-left: 1rem; /* Equivale a `px-4` */
+    padding-right: 1rem; /* Equivale a `px-4` */
+}
+
+.svg__login {
+    width: 1rem; /* Equivale a `size-4` (4 * 0.25rem) */
+    height: 1rem; /* Equivale a `size-4` */
+    color: #9ca3af; /* Equivale a `text-gray-400` */
+    /* fill: none; /* Evita que el SVG se rellene con color */
+    /* stroke: currentColor; Usa el color actual para el trazo */ 
+}
+
+.input--div_log-in {
+    width: 100%; /* Equivale a `w-full` */
+    border-radius: 0.5rem; /* Equivale a `rounded-lg` (8px) */
+    border: 1px solid #e5e7eb; /* Equivale a `border-gray-200` */
+    padding: 1rem 3rem 1rem 1rem; /* Equivale a `p-4` (1rem) y `pe-12` (3rem de padding en el lado derecho) */
+    font-size: 0.875rem; /* Equivale a `text-sm` */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Equivale a `shadow-sm` */
+}
+
+.log-in__span {
+    position: absolute; /* Equivale a `absolute` */
+    top: 0;
+    bottom: 0; /* Equivale a `inset-y-0` */
+    right: 0; /* Equivale a `end-0` (en LTR se traduce a `right`) */
+    display: grid; /* Equivale a `grid` */
+    place-content: center; /* Equivale a `place-content-center` */
+    padding-left: 1rem; /* Equivale a `px-4` (1rem) */
+    padding-right: 1rem; /* Equivale a `px-4` (1rem) */
+}
+
+.divlog__in-2 {
+    display: flex; /* Equivale a `flex` */
+    align-items: center; /* Equivale a `items-center` */
+    justify-content: space-between; /* Equivale a `justify-between` */
+}
+
+
+.parrafo2__log_in {
+    font-size: 0.875rem; /* Equivale a `text-sm` */
+    color: #6b7280; /* Equivale a `text-gray-500` */
+}
+
+
+.button--login-1 {
+    display: inline-block;
+    padding-left: 1.25rem; /* Equivale a `px-5` */
+    padding-right: 1.25rem; /* Equivale a `px-5` */
+    padding-top: 0.75rem; /* Equivale a `py-3` */
+    padding-bottom: 0.75rem; /* Equivale a `py-3` */
+    font-size: 0.875rem; /* Equivale a `text-sm` */
+    font-weight: 500; /* Equivale a `font-medium` */
+    color: white; /* Equivale a `text-white` */
+    background-color: #3b82f6; /* Equivale a `bg-blue-500` */
+    border-radius: 0.5rem; /* Equivale a `rounded-lg` */
+}
+
+.div-log__in-img {
+    /* position: relative; Equivale a `relative` */
+    height: 16rem; /* Equivale a `h-64` (64 * 0.25rem = 16rem) */
+    /* width: 10vw; Equivale a `w-full` */
+    border: 3px solid #99d;
+    
+}
+
+.img__login {
+    /* position: absolute; Equivale a `absolute` */
+    /* top: 0; Equivale a `inset-0`, coloca todos los lados en 0 */
+    /* left: 0; Equivale a `inset-0`, coloca todos los lados en 0 */
+    /* right: 0; Equivale a `inset-0`, coloca todos los lados en 0 */
+    /* bottom: 0; Equivale a `inset-0`, coloca todos los lados en 0 */
+    height: 100%; /* Equivale a `h-full`, altura completa */
+    width: 100%; /* Equivale a `w-full`, ancho completo */
+    object-fit: cover; /* Equivale a `object-cover`, para que la imagen cubra completamente el área sin distorsionarse */
+}
+
+
+@media (min-width: 640px) { /* Para pantallas `sm` */
+    .section-div--logIN1 {
+        padding-left: 1.5rem; /* Equivale a `sm:px-6` */
+        padding-right: 1.5rem; /* Equivale a `sm:px-6` */
+        padding-top: 4rem; /* Equivale a `sm:py-16` */
+        padding-bottom: 4rem; /* Equivale a `sm:py-16` */
+    }
+
+    .h1__div__login {
+        font-size: 1.875rem; /* Equivale a `sm:text-3xl` */
+    }
+
+    .div-log__in-img {
+        height: 24rem; /* Equivale a `sm:h-96` (96 * 0.25rem = 24rem) */
+        width: 100vw;
+    }
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+    .section__Login {
+        height: 100vh; /* Equivale a `lg:h-screen` */
+        align-items: center; /* Equivale a `lg:items-center` */
+    }
+
+    .section-div--logIN1 {
+        width: 50%; /* Equivale a `lg:w-1/2` */
+        padding-left: 2rem; /* Equivale a `lg:px-8` */
+        padding-right: 2rem; /* Equivale a `lg:px-8` */
+        padding-top: 6rem; /* Equivale a `lg:py-24` */
+        padding-bottom: 6rem; /* Equivale a `lg:py-24` */
+    }
+
+    .div-log__in-img {
+        height: 100%; /* Equivale a `lg:h-full` */
+        width: 50%; /* Equivale a `lg:w-1/2` */
+    }
+}

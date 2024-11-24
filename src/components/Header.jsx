@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Nav } from 'react-bootstrap'
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import logo from "../assets/4.png";
 
 function Header() {
@@ -139,9 +139,8 @@ function Header() {
 
                     {/* Login posicionado a la derecha con un pequeño margen */}
                     <div className="ml-auto">
-                        <Nav.Link
-                        
-                            // href="/login"
+                        {/* <Nav.Link
+                            href="/login"
                             className={`text-white fs-5 ${isActive("/login") || hovered === 7
                                 ? "border-bottom border-white"
                                 : ""
@@ -149,9 +148,18 @@ function Header() {
                             style={{ marginRight: "20px" }}
                             onMouseEnter={() => handleHover(7)}
                             onMouseLeave={() => setHovered(null)}
-                        >
+                        > */}
+                            <Link  
+                             className={`text-white fs-5 ${isActive("/login") || hovered === 7
+                                ? "border-bottom border-white"
+                                : ""
+                                }`}
+                            onMouseEnter={() => handleHover(7)}
+                            onMouseLeave={() => setHovered(null)}
+                            style={{ marginRight: "20px",color:"#fff",textDecoration:"none" }} to="/login">
                             Login
-                        </Nav.Link>
+                            </Link>
+                        {/* </Nav.Link> */}
                     </div>
                 </Nav.Item>
             </Nav>

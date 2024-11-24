@@ -34,6 +34,8 @@ import CienciasSociales from './pages/CienciasSociales'
 import Construccion from './pages/Construccion'
 import MusicaYDiseño from './pages/MusicaYDiseño'
 import Idiomas from './pages/Idiomas'
+import { LogIn } from 'lucide-react'
+import Login from './pages/Login'
 // import './App.css'
 
 function App() {
@@ -70,13 +72,9 @@ function App() {
           <Route path='/construccion' element={<Construccion/>} />
           <Route path='/musica' element={<MusicaYDiseño/>} />
           <Route path='/idiomas' element={<Idiomas/>} />
-
-
-
-
-
-
+          
           </Route>
+          <Route path='/login' element={<Login/>} />
 
         </Routes>
       </BrowserRouter>

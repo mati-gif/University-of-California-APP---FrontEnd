@@ -26,13 +26,15 @@
 
 
 .register__logo {
-    position: absolute; /* Equivale a `absolute` */
-    top: -3.5rem; /* Equivale a `top-4` (4 * 0.25rem = 1rem) */
-    left: 1rem; /* Equivale a `left-4` (4 * 0.25rem = 1rem) */
-    z-index: 10; /* Equivale a `z-10` */
-    /* border: 2px solid #a4f; */
-    width: 300px;
-    height: 250px;
+    /* position: absolute; Equivale a `absolute` */
+    /* top: -3.5rem; Equivale a `top-4` (4 * 0.25rem = 1rem) */
+    /* left: 1rem; Equivale a `left-4` (4 * 0.25rem = 1rem) */
+    /* z-index: 10;  */
+    border: 2px solid #a4f;
+    width: 200px;
+    height: 200px;
+    /* margin-bottom: 10px; */
+    margin: auto;
 
 }
 
@@ -51,10 +53,16 @@
     position: relative; /* Equivale a `relative` */
     z-index: 10; /* Equivale a `z-10` */
     width: 100%; /* Equivale a `w-full` */
-    max-width: 28rem; /* Equivale a `max-w-md` */
+    max-width: 40rem; /* Equivale a `max-w-md` */
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 4rem; /* Equivale a `p-16` */
     border-radius: 0.375rem; /* Equivale a `rounded-md` */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border: 3px solid #a2d;
+
 }
 
 
@@ -71,6 +79,9 @@
     display: flex;
     flex-direction: column; /* Garantiza que los hijos se apilen verticalmente */
     gap: 1rem; /* Equivale a `space-y-4` (16px de separación vertical entre elementos) */
+    border: 3px solid #5c3;
+    width: 100%;
+
 }
 
 
@@ -81,6 +92,9 @@
     background-color: #fff; /* Equivale a `bg-zinc-800` */
     color: #000; /* Equivale a `text-white` */
     border: 1px solid #3f3f46; /* Equivale a `border-zinc-700` */
+    margin-bottom: 15px;
+    margin-top: 15px;
+
 }
 
 .input__email--register:focus {
@@ -98,6 +112,10 @@
     background-color: #fff; /* Equivale a `bg-zinc-800` */
     color: #000; /* Equivale a `text-white` */
     border: 1px solid #3f3f46; /* Equivale a `border-zinc-700` */
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+
 }
 
 .input__contraseña--register:focus {
@@ -107,7 +125,7 @@
 
 
 .boton__register {
-    width: 100%; /* Equivale a `w-full` */
+    width: 50%; /* Equivale a `w-full` */
     background-color: #3B82F6; /* Equivale a `bg-[#E50914]` */
     color: #ffffff; /* Equivale a `text-white` */
     padding-top: 0.75rem; /* Equivale a `py-3` */
@@ -145,4 +163,13 @@
 
 .link__register:hover {
     text-decoration: underline; /* Aplica subrayado al pasar el cursor */
+}
+
+
+
+.closeButton-register{
+    border: 3px solid #aa1;
+    display: flex;
+    justify-content: end;
+    
 }

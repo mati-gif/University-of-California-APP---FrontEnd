@@ -2,7 +2,7 @@ import React from 'react'
 import "../Styles/register.css"
 import CloseButton from 'react-bootstrap/CloseButton';
 import { Link } from 'react-router-dom';
-import logo from "../assets/9b.png";
+import logo from "../assets/2(sin fondo y letra blanca).png";
 
 function Register() {
     return (
@@ -11,46 +11,78 @@ function Register() {
                 {/* Background Image Grid */}
                 <div
                     class="div-container__img-register "
-                    // style={{
-                    //     backgroundBlendMode: 'multiply',
-                    // }}
+                // style={{
+                //     backgroundBlendMode: 'multiply',
+                // }}
                 >
                     <div class="div-register2 "></div>
                 </div>
 
-                {/* Netflix Logo */}
-                <div class="register__logo absolute top-4 left-4 z-10">
-                    {/* <span class="span__div-register__log ">NETFLIX</span> */}
-                    <img  class="span__div-register__log " src={logo} alt={logo} />
-                </div>
 
                 {/* Login Form */}
                 <div class="div__register-form ">
-                    <h1 class="h1-div__register ">Welcome to UC University </h1>
+                    {/* <h1 class="h1-div__register ">Welcome to UC University </h1> */}
 
+                    <div class='closeButton-register'>
+                        <Link to="/">
+                            <CloseButton style={{ border: "2px solid #dd4", position: "relative", left: "0px", backgroundColor: "#fff" }} />
+                        </Link>
+                    </div>
+                    {/* Netflix Logo */}
+                    <div class="register__logo absolute top-4 left-4 z-10">
+                        {/* <span class="span__div-register__log ">NETFLIX</span> */}
+                        <img class="span__div-register__log " src={logo} alt={logo} />
+                    </div>
                     <form class="register__form ">
-                        <div>
-                            <input
-                                type="text"
-                                placeholder="Email"
-                                class="input__email--register "
-                            />
+                        <div style={{
+                            display: "flex",
+                            gap: "20px",
+                            border: "2px solid #f22",
+                            width: "100%",
+                            justifyContent: "center",
+                            alignItems: "center"
+                        }}>
+                            <div>
+                                <input
+                                    type="text"
+                                    placeholder="FirstName"
+                                    class="input__contraseña--register "
+                                />
+
+                                <input
+                                    type="text"
+                                    placeholder="Email"
+                                    class="input__email--register "
+                                />
+                            </div>
+
+                            <div>
+                                <input
+                                    type="text"
+                                    placeholder="LastName"
+                                    class="input__contraseña--register "
+                                />
+                                <input
+                                    type="password"
+                                    placeholder="Password"
+                                    class="input__contraseña--register "
+                                />
+
+                            </div>
+                        </div>
+                        <div style={{
+                            border: "3px solid #78a",
+                            display: "flex",
+                            justifyContent: "center"
+                        }}>
+                            <button
+                                type="submit"
+                                class="boton__register "
+                            >
+                                Register
+                            </button>
                         </div>
 
-                        <div>
-                            <input
-                                type="password"
-                                placeholder="Password"
-                                class="input__contraseña--register "
-                            />
-                        </div>
-
-                        <button
-                            type="submit"
-                            class="boton__register w-full bg-[#E50914] text-white py-3 rounded font-semibold hover:bg-[#f6121d] transition-colors"
-                        >
-                            Register
-                        </button>
 
                         <div class="div-items-debajoForm">
                             <label class="label-ultimos__items ">

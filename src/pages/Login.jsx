@@ -101,7 +101,7 @@ function Login() {
                         <div class="divlog__in-2 ">
                             <p class="parrafo2__log_in">
                                 No account?
-                                <a style={{textDecorationLine:"underline"}} href="#">Sign up</a>
+                                <Link style={{textDecorationLine:"underline",marginLeft:"10px"}} to="/register">Register</Link>
                             </p>
 
                             <button

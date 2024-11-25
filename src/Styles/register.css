@@ -1,0 +1,148 @@
+.div-register-container__principal {
+    min-height: 100vh; /* Equivale a `min-h-screen`, establece una altura mínima del 100% del viewport */
+    position: relative; /* Equivale a `relative`, posiciona el elemento relativamente */
+    display: flex; /* Equivale a `flex`, usa el modelo de caja flexible */
+    align-items: center; /* Equivale a `items-center`, alinea los ítems en el centro verticalmente */
+    justify-content: center; /* Equivale a `justify-center`, centra los ítems horizontalmente */
+    padding: 1rem; /* Equivale a `p-4`, padding de 1 rem (16px por defecto) en todos los lados */
+    width: 100vw;
+    background-color: #000;
+}
+
+.div-container__img-register {
+    position: absolute; /* Equivale a `absolute` */
+    inset: 0; /* Equivale a `inset-0`, establece todos los offsets (top, right, bottom, left) en 0 */
+    background-image: url('https://www.ucsb.edu/sites/default/files/images/pages/Home/hero-afternoon.jpg'); /* Equivale a `bg-[url(...)]` */
+    background-size: cover; /* Equivale a `bg-cover`, ajusta la imagen de fondo para cubrir completamente el contenedor */
+    background-blend-mode: multiply; /* Este estilo estaba en línea y se ha trasladado aquí */
+}
+
+.div-register2 {
+    position: absolute; /* Equivale a `absolute` */
+    inset: 0; /* Equivale a `inset-0`, coloca el elemento en todas las esquinas del contenedor */
+    background-color: rgba(0, 0, 0, 0.2); /* Equivale a `bg-black/50`, fondo negro con 50% de opacidad */
+    backdrop-filter: blur(4px); /* Equivale a `backdrop-blur-sm`, aplica desenfoque de fondo pequeño */
+}
+
+
+.register__logo {
+    position: absolute; /* Equivale a `absolute` */
+    top: -3.5rem; /* Equivale a `top-4` (4 * 0.25rem = 1rem) */
+    left: 1rem; /* Equivale a `left-4` (4 * 0.25rem = 1rem) */
+    z-index: 10; /* Equivale a `z-10` */
+    /* border: 2px solid #a4f; */
+    width: 300px;
+    height: 250px;
+
+}
+
+
+.span__div-register__log {
+    color: #E50914; /* Equivale a `text-[#E50914]` */
+    font-size: 2.25rem; /* Equivale a `text-4xl` */
+    font-weight: 700; /* Equivale a `font-bold` */
+    /* border: 2px solid #fF5; */
+    width: 100%;
+    height: 100%;
+}
+
+
+.div__register-form {
+    position: relative; /* Equivale a `relative` */
+    z-index: 10; /* Equivale a `z-10` */
+    width: 100%; /* Equivale a `w-full` */
+    max-width: 28rem; /* Equivale a `max-w-md` */
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 4rem; /* Equivale a `p-16` */
+    border-radius: 0.375rem; /* Equivale a `rounded-md` */
+}
+
+
+.h1-div__register {
+    color: #fff; /* Equivale a `text-white` */
+    font-size: 1.875rem; /* Equivale a `text-3xl` (30px) */
+    font-weight: 700; /* Equivale a `font-bold` */
+    margin-bottom: 2rem; /* Equivale a `mb-8` (32px) */
+    text-align: center;
+}
+
+
+.register__form {
+    display: flex;
+    flex-direction: column; /* Garantiza que los hijos se apilen verticalmente */
+    gap: 1rem; /* Equivale a `space-y-4` (16px de separación vertical entre elementos) */
+}
+
+
+.input__email--register {
+    width: 100%; /* Equivale a `w-full` */
+    padding: 1rem; /* Equivale a `p-4` */
+    border-radius: 0.375rem; /* Equivale a `rounded` (6px) */
+    background-color: #fff; /* Equivale a `bg-zinc-800` */
+    color: #000; /* Equivale a `text-white` */
+    border: 1px solid #3f3f46; /* Equivale a `border-zinc-700` */
+}
+
+.input__email--register:focus {
+    border-color: #fff; /* Equivale a `focus:border-zinc-500` */
+    outline: none; 
+
+}
+
+
+
+.input__contraseña--register {
+    width: 100%; /* Equivale a `w-full` */
+    padding: 1rem; /* Equivale a `p-4` */
+    border-radius: 0.375rem; /* Equivale a `rounded` (6px) */
+    background-color: #fff; /* Equivale a `bg-zinc-800` */
+    color: #000; /* Equivale a `text-white` */
+    border: 1px solid #3f3f46; /* Equivale a `border-zinc-700` */
+}
+
+.input__contraseña--register:focus {
+    border-color: #fff; /* Equivale a `focus:border-zinc-500` */
+    outline: none; /* Equivale a `focus:outline-none` */
+}
+
+
+.boton__register {
+    width: 100%; /* Equivale a `w-full` */
+    background-color: #3B82F6; /* Equivale a `bg-[#E50914]` */
+    color: #ffffff; /* Equivale a `text-white` */
+    padding-top: 0.75rem; /* Equivale a `py-3` */
+    padding-bottom: 0.75rem; /* Equivale a `py-3` */
+    border-radius: 0.375rem; /* Equivale a `rounded` (6px) */
+    font-weight: 600; /* Equivale a `font-semibold` */
+    transition: background-color 0.2s ease-in-out; /* Equivale a `transition-colors` */
+}
+
+.boton__register:hover {
+    background-color: #3B82F1; /* Equivale a `hover:bg-[#f6121d]` */
+}
+
+
+.div-items-debajoForm {
+    display: flex; /* Equivale a `flex` */
+    align-items: center; /* Equivale a `items-center` */
+    justify-content: center; /* Equivale a `justify-between` */
+    color: #fff; /* Equivale a `text-zinc-400` */
+    font-size: 0.875rem; /* Equivale a `text-sm` (14px) */
+    gap: 10px;
+}
+
+
+.label-ultimos__items {
+    display: flex; /* Equivale a `flex` */
+    align-items: center; /* Equivale a `items-center` */
+}
+
+
+.link__register {
+    text-decoration: none; /* Inicialmente sin subrayado */
+    transition: text-decoration 0.2s ease-in-out; /* Suaviza la transición */
+}
+
+.link__register:hover {
+    text-decoration: underline; /* Aplica subrayado al pasar el cursor */
+}

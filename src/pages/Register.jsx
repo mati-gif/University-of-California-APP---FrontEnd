@@ -1,47 +1,69 @@
 import React from 'react'
+import "../Styles/register.css"
+import CloseButton from 'react-bootstrap/CloseButton';
+import { Link } from 'react-router-dom';
+import logo from "../assets/9b.png";
 
 function Register() {
     return (
-        <div>Register
-
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Navbar</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form className="d-flex" role="search">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                                <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
+        <>
+            <div class="div-register-container__principal ">
+                {/* Background Image Grid */}
+                <div
+                    class="div-container__img-register "
+                    // style={{
+                    //     backgroundBlendMode: 'multiply',
+                    // }}
+                >
+                    <div class="div-register2 "></div>
                 </div>
-            </nav>
-        </div>
 
+                {/* Netflix Logo */}
+                <div class="register__logo absolute top-4 left-4 z-10">
+                    {/* <span class="span__div-register__log ">NETFLIX</span> */}
+                    <img  class="span__div-register__log " src={logo} alt={logo} />
+                </div>
+
+                {/* Login Form */}
+                <div class="div__register-form ">
+                    <h1 class="h1-div__register ">Welcome to UC University </h1>
+
+                    <form class="register__form ">
+                        <div>
+                            <input
+                                type="text"
+                                placeholder="Email"
+                                class="input__email--register "
+                            />
+                        </div>
+
+                        <div>
+                            <input
+                                type="password"
+                                placeholder="Password"
+                                class="input__contraseña--register "
+                            />
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="boton__register w-full bg-[#E50914] text-white py-3 rounded font-semibold hover:bg-[#f6121d] transition-colors"
+                        >
+                            Register
+                        </button>
+
+                        <div class="div-items-debajoForm">
+                            <label class="label-ultimos__items ">
+                                Do you have an account?
+                            </label>
+                            <Link to="/login" class="link__register ">
+                                Login
+                            </Link>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </>
 
     )
 }

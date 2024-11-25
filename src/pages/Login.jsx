@@ -2,6 +2,7 @@ import React from 'react'
 import "../Styles/login.css"
 import CloseButton from 'react-bootstrap/CloseButton';
 import { Link } from 'react-router-dom';
+import logo from "../assets/9(sin fondo).png";
 function Login() {
     return (
         <div class='login'>
@@ -12,12 +13,24 @@ function Login() {
                 <CloseButton style={{border:"2px solid #dd4",position:"relative",left:"0px"}} />
                 </div>
                 </Link>
+
                     <div class="div--2__logIN ">
-                        <h1 class="h1__div__login  ">Get started today!</h1>
+                        {/* <h1 class="h1__div__login  ">UC University</h1>
                         <p class="p__div__login ">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla eaque error neque
                             ipsa culpa autem, at itaque nostrum!
-                        </p>
+                        </p> */}
+                        <div style={{border:"2px solid #1a1",
+                    height:"150px",
+                    width:"150px",
+
+                }}>
+                        <img style={{
+                        width:"100%",
+                        height:"100%",
+                    }} src={logo} alt={logo} />
+                        </div>
+
                     </div>
 
                     <form action="#" class="form__form-login ">

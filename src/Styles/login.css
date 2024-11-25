@@ -31,12 +31,15 @@
 .div--2__logIN {
     margin-left: auto; /* Equivale a `mx-auto` */
     margin-right: auto; /* Equivale a `mx-auto` */
-    max-width: 32rem; /* Equivale a `max-w-lg` */
+    max-width: 40rem; /* Equivale a `max-w-lg` */
     text-align: center; /* Equivale a `text-center` */
+    border: 3px solid #45a;
+    display: flex;
+    justify-content: center;
 }
 
 .h1__div__login {
-    font-size: 1.5rem; /* Equivale a `text-2xl` */
+    font-size: 200rem; /* Equivale a `text-2xl` */
     font-weight: 700; /* Equivale a `font-bold` */
 }
 

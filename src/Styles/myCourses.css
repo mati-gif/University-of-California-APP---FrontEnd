@@ -1,0 +1,19 @@
+.img__log-myCourses {
+    /* display: inline-block; Equivalente a `d-inline-block` */
+    /* vertical-align: top; Equivalente a `align-top` */
+    border-color: black; /* Equivalente a `borde-black` */
+    border-width: 2px; /* Equivalente a `boder-[2px]` */
+    border-style: solid; /* Para que el borde sea visible */
+    width: 150px;
+    height: 150px;
+}
+
+.div-header__loguitos {
+    display: flex; /* Equivalente a `d-flex` */
+    justify-content: end;
+    align-items: center; /* Equivalente a `align-items-center` */
+    border: 2px solid #a4f;
+    width: 400px;
+    margin-right: 10px;
+
+}

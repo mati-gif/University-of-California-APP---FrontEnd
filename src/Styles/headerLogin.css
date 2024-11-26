@@ -1,0 +1,43 @@
+.img__log-myCourses {
+    /* display: inline-block; Equivalente a `d-inline-block` */
+    /* vertical-align: top; Equivalente a `align-top` */
+    border-color: black; /* Equivalente a `borde-black` */
+    border-width: 2px; /* Equivalente a `boder-[2px]` */
+    border-style: solid; /* Para que el borde sea visible */
+    width: 150px;
+    height: 150px;
+}
+
+.div-header__loguitos {
+    display: flex; /* Equivalente a `d-flex` */
+    justify-content: end;
+    align-items: center; /* Equivalente a `align-items-center` */
+    border: 2px solid #a4f;
+    width: 400px;
+    margin-right: 10px;
+
+}
+
+.nav-item__header2 {
+    display: flex; /* `d-flex` */
+    justify-content: center; /* `justify-content-center` */
+    align-items: center; /* `align-items-center` */
+    width: 100%; /* `w-100` */
+    border-bottom: 1px solid #000;
+}
+
+
+.div_img__header2 {
+    display: flex; /* Equivale a `d-flex` */
+    align-items: center; /* Equivale a `align-items-center` */
+    border: 2px solid #12c;
+}
+
+.div__buttons__header_2 {
+    display: flex; /* Equivale a `d-flex` */
+    justify-content: start; /* Equivale a `justify-content-center` */
+    align-items: center;
+    width: 100%; /* Equivale a `w-100` */
+    border: 3px solid #49e;
+    height: 100%;
+}

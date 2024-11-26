@@ -36,6 +36,7 @@ import MusicaYDiseño from './pages/MusicaYDiseño'
 import Idiomas from './pages/Idiomas'
 import { LogIn } from 'lucide-react'
 import Login from './pages/Login'
+import MyCourses from './pages/MyCourses'
 // import './App.css'
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
           </Route>
           <Route path='/login' element={<Login/>} />
           <Route path='/register' element={<Register/>} />
+          <Route path='/myCourses' element={<MyCourses/>} />
 
 
         </Routes>

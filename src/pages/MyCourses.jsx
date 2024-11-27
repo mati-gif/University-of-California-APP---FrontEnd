@@ -38,7 +38,7 @@ export default function MyCourses() {
     return (
         <>
             <div style={{
-                minHeight: "100vh",
+                minHeight: "110vh",
                 border: "5px solid #2e2",
                 width: " 100vw",
                 marginTop: "100px",
@@ -60,7 +60,7 @@ export default function MyCourses() {
                             <Dropdown.Divider />
                             <Dropdown.Item href="#/action-5">Starred</Dropdown.Item>
                             <Dropdown.Divider />
-                            <Dropdown.Item  href="#/action-6">Removed from view</Dropdown.Item>
+                            <Dropdown.Item href="#/action-6">Removed from view</Dropdown.Item>
                         </DropdownButton>
                         <input class='input-Buscar2--headerMyCourses' type="text" placeholder='Search' />
                         <DropdownButton id="dropdow--header2B" title="Sort By">
@@ -68,9 +68,9 @@ export default function MyCourses() {
                             <Dropdown.Item href="#/action-2">Sort by last access</Dropdown.Item>
                         </DropdownButton>
                         <select name="" id="select-header">
-                        <option value="">Sort To</option>
-                        <option value="">Sort by name course</option>
-                        <option value="">Sort by last access</option>
+                            <option value="">Sort To</option>
+                            <option value="">Sort by name course</option>
+                            <option value="">Sort by last access</option>
                         </select>
                         <DropdownButton id="dropdow--header2C" title="View">
                             <Dropdown.Item href="#/action-1">Card</Dropdown.Item>
@@ -78,6 +78,31 @@ export default function MyCourses() {
                             <Dropdown.Item href="#/action-3">Resume</Dropdown.Item>
                         </DropdownButton>
                     </div>
+
+
+                    <div class='card__header-container'>
+                        <div class="card-header2c">
+                            <div class="text_header2c">
+                                <p class="subtitle-header2cc">3th grade</p>
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </div>
+
+                            <div class="icons-header2cc">
+                                <div class="btn-header2cc" >
+                                    <svg y="0" xmlns="http://www.w3.org/2000/svg" x="0" width="100" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" height="100" class="svg-icon-header2cc">
+                                        <path stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none" d="M21.9,50h0M50,50h0m28.1,0h0M25.9,50a4,4,0,1,1-4-4A4,4,0,0,1,25.9,50ZM54,50a4,4,0,1,1-4-4A4,4,0,0,1,54,50Zm28.1,0a4,4,0,1,1-4-4A4,4,0,0,1,82.1,50Z">
+                                        </path>
+                                    </svg>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </>

@@ -1,40 +1,65 @@
-import React, { useState } from 'react'
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react'
+import { Navbar, Nav, Container, Button, ToggleButton, DropdownMenu, DropdownButton, Dropdown } from 'react-bootstrap';
 import { FaSearch, FaBell, FaCommentAlt } from 'react-icons/fa';
 import logo from "../assets/9(sin fondo y otro color letras).png";
 import "../Styles/myCourses.css"
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import HeaderLogin from './HeaderLogin';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import { Info } from 'lucide-react';
+
+
+
+
+
+
 
 export default function MyCourses() {
 
 
     const location = useLocation(); // Usamos useLocation para obtener la ruta actual
     const navigate = useNavigate();
-    // Función que determina si el enlace está activo según la ruta
-    const isActive = (hash) => location.hash === hash;
-    // Verificar si Home está activo
-    const isActive2 = () => location.pathname === "/myCourses" && (!location.hash || location.hash === "#");
+    const [activeCards, setActiveCards] = useState({})
 
-    // Estado para controlar el hover
-    const [hovered, setHovered] = useState(null);
 
-    // Función para manejar el hover de los links
-    const handleHover = (index) => {
-        setHovered(index);
+    const toggleCard = (cardId) => {
+        setActiveCards((prevState) => ({
+            ...prevState,
+            [cardId]: !prevState[cardId] // Alterna el estado de la tarjeta específica
+        }));
     };
 
 
-    // Manejar clics en secciones
-    const handleSectionClick = (hash) => {
-        if (location.pathname !== "/myCourses") {
-            navigate(`/${hash}`); // Redirige al Home con el hash
-        } else {
-            window.location.hash = hash; // Ajusta el hash directamente si ya estás en Home
-        }
-    };
+
+
+
+
+
+
+    // useEffect(()=>{
+    //     console.log("se ejecuto el useEffect");
+    //     ToggleButton()
+    // },[])
+
+    // let toggle = true;
+    // console.log(toggle);
+
+    // const openOptions = () => {
+
+    //     const div = document.querySelector(".miniCard-2")
+
+    //     if (toggle) {
+    //         div.style.display = "none"
+    //         console.log(toggle);
+    //     }else{
+    //         div.style.display = "flex"
+    //         console.log(toggle);
+    //         console.log(div);
+    //     }
+    //     console.log(div);
+    //     toggle = !toggle;
+    //     console.log(toggle);
+    //     console.log(div);
+    // }
     return (
         <>
             <div style={{
@@ -80,29 +105,39 @@ export default function MyCourses() {
                     </div>
 
 
-                    <div class='card__header-container'>
+                    <div class="card__header-container">
                         <div class="card-header2c">
                             <div class="text_header2c">
                                 <p class="subtitle-header2cc">3th grade</p>
-                                <span>Lorem ipsum dolor sit amet</span>
                             </div>
 
                             <div class="icons-header2cc">
-                                <div class="btn-header2cc" >
-                                    <svg y="0" xmlns="http://www.w3.org/2000/svg" x="0" width="100" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" height="100" class="svg-icon-header2cc">
-                                        <path stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none" d="M21.9,50h0M50,50h0m28.1,0h0M25.9,50a4,4,0,1,1-4-4A4,4,0,0,1,25.9,50ZM54,50a4,4,0,1,1-4-4A4,4,0,0,1,54,50Zm28.1,0a4,4,0,1,1-4-4A4,4,0,0,1,82.1,50Z">
-                                        </path>
-                                    </svg>
+                                <span class="span__headerLogin2">Lorem ipsum dolor sit amet</span>
+                                <Dropdown id='headerDD' drop='start'>
+                                    <Dropdown.Toggle id="custom-dropdown-toggle" class="custom-dropdown">
+                                        ...
+                                    </Dropdown.Toggle>
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#action1">Opción 1</Dropdown.Item>
+                                        <Dropdown.Item href="#action2">Opción 2</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </div>
+                        </div>
+                        <div class="card-header2c">
+                            <div class="text_header2c">
+                                <p class="subtitle-header2cc">4th grade</p>
+                            </div>
 
-
-
-
-                                </div>
+                            <div class="icons-header2cc">
+                                <span class="span__headerLogin2">Lorem ipsum dolor sit amet</span>
+                                <DropdownButton drop='start' align="start" id="custom-dropdown-toggle" title="...">
+                                    <Dropdown.Item href="#/action-1">Sort by name course</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-2">Sort by last access</Dropdown.Item>
+                                </DropdownButton>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </>

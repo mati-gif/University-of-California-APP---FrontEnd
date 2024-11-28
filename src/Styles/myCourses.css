@@ -6,9 +6,9 @@
 }
 
 .div__1--header2{
-    border: 2px solid #7cd;
+    border: 5px solid #7cd;
     width: 80vw;
-    height: 90dvh;
+    min-height: 90dvh;
     margin: auto;
     background-color: #fff;
     border-radius: 8px;
@@ -127,26 +127,42 @@
     outline: 3px solid #bbb;
 }
 
-.card__header-container{
-    border: 2px dotted #55f;
-    min-height: 71%;
-    display: flex;
-    justify-content: center;
+
+
+
+
+
+
+
+
+
+
+
+
+.card__header-container {
+  border: 5px dotted #55f;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+
+
 }
 
 
-/* From Uiverse.io by Javierrocadev */ 
+/* Estilización de la tarjeta */
 .card-header2c {
-    width: 400px;
-    height: 300px;
-    border-radius: 15px;
-    background: #48e;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    border: 2px solid #45aa;
-  }
+  width: 350px;
+  height: 300px;
+  border-radius: 15px;
+  background: #48e;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #000;
+}
   
   .card-header2c::before {
     content: "";
@@ -173,10 +189,10 @@
     font-size: 1.2em;
     justify-content: space-between;
   }
-  .text_header2c span{
-    border: 1px solid #500;
 
-  }
+
+
+
   
   .subtitle-header2cc {
     font-size: .9em;
@@ -192,37 +208,28 @@
   .icons-header2cc {
     display: flex;
     /* justify-items: center; */
+    flex-direction: column;
     align-items: end;
-    justify-content: end;
+    justify-content: space-between;
     width: 100%;
-    height: 40%;
+    height: 60%;
     border-radius: 0px 0px 15px 15px;
-    overflow: hidden;
-    border: 2px solid #3fad;
+    /* overflow: hidden; */
+    border: 2px solid #0a3;
     background-color: #fff;
 
   }
   
-  .btn-header2cc {
-    border: none;
-    width: 84px;
-    height: 35px;
-    /* background-color: rgba(247, 234, 234, 0.589); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+
+  .span__headerLogin2{
+    border: 1px solid #500;
+    width: 100%;
+    padding: 5px;
+
   }
+
   
-  .svg-icon-header2cc {
-    width: 25px;
-    height: 25px;
-    stroke: rgb(38, 59, 126);
-  }
-  
-  /* .btn-header2cc:hover {
-    background-color: rgb(247, 234, 234);
-  } */
+
   
   .card-header2c:hover::before {
     width: 140px;
@@ -232,24 +239,46 @@
     filter: blur(0rem);
   }
 
-  .section-header2C{
-    border: 1px solid #000;
-    width: 100px;
-    height: 15px;
+
+
+  #headerDD{
+    border: 3px solid #407;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
   }
 
+/* Agrandar los tres puntos y cambiar el color */
+#custom-dropdown-toggle {
+  background-color: transparent;
+  border:none;
+  padding: 0;
+  font-size: 50px; /* Aumentar el tamaño de los puntos */
+  color: #003366; /* Color azul oscuro */
+  cursor: pointer;
+  width: 84px;
+  height: 5vh;
+  border: 1px solid #500;
+  /* margin-top: 45px; */
+  margin: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
 
+/* Eliminar la flecha del dropdown */
+#custom-dropdown-toggle::after {
+  display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#custom-dropdown-toggle::before {
+  display: none;
+}
+/* Evitar que el componente tenga el borde al hacer click */
+.custom-dropdown:focus {
+  outline: none;
+}
 
   

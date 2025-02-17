@@ -6,7 +6,8 @@ import "../Styles/myCourses.css"
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import HeaderLogin from './HeaderLogin';
 import { Info } from 'lucide-react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { currentUser } from '../Redux/actions/authAction';
 
 
 
@@ -19,6 +20,7 @@ export default function MyCourses() {
 
     const location = useLocation(); // Usamos useLocation para obtener la ruta actual
     const navigate = useNavigate();
+    const dispatch = useDispatch()
     const [activeCards, setActiveCards] = useState({})
 
 
@@ -29,20 +31,27 @@ export default function MyCourses() {
         }));
     };
 
-    const { isLoggedIn, name, token, email, status,courses } = useSelector((state) => state.authenticateUser)
+    const { isLoggedIn, name, token, email, status, courses } = useSelector((state) => state.authenticateUser)
 
 
-console.log(courses);
+    console.log(courses);
 
     // if (!isLoggedIn) {
     //     return navigate("/login");
     // }
 
-    // useEffect(() => {
-    //     if (!isLoggedIn) {
-    //         navigate('/login'); // O redirigir a '/' si prefieres
-    //     }
-    // }, [isLoggedIn, navigate]);
+    useEffect(() => {
+        // if (!isLoggedIn) {
+        //     navigate('/login'); // O redirigir a '/' si prefieres
+        // }
+
+        if (isLoggedIn && status) {
+
+            const resultado = dispatch(currentUser(token))
+            console.log(resultado);
+
+        }
+    }, [isLoggedIn, navigate, status, dispatch, token]);
 
     // if (!isLoggedIn) {
     //     return null; // Retornamos null mientras redirige
@@ -119,37 +128,34 @@ console.log(courses);
 
 
                     <div class="card__header-container">
-                        <div class="card-header2c">
-                            <div class="text_header2c">
-                                <p class="subtitle-header2cc">3th grade</p>
-                            </div>
+                        {courses.map((item) => (
+                            <>
+                                <div key={item.id} class="card-header2c">
+                                    <div class="text_header2c">
+                                        <p class="subtitle-header2cc">{item.moreInfoAboutCourse.map((item) => item.yearCourse)}</p>
+                                    </div>
 
-                            <div class="icons-header2cc">
-                                <span class="span__headerLogin2">Lorem ipsum dolor sit amet</span>
-                                <Dropdown id='headerDD' drop='start'>
-                                    <Dropdown.Toggle id="custom-dropdown-toggle" class="custom-dropdown">
-                                        ...
-                                    </Dropdown.Toggle>
-                                    <Dropdown.Menu>
-                                        <Dropdown.Item href="#action1">Opción 1</Dropdown.Item>
-                                        <Dropdown.Item href="#action2">Opción 2</Dropdown.Item>
-                                    </Dropdown.Menu>
-                                </Dropdown>
-                            </div>
-                        </div>
-                        <div class="card-header2c">
-                            <div class="text_header2c">
-                                <p class="subtitle-header2cc">4th grade</p>
-                            </div>
+                                    <div class="icons-header2cc">
 
-                            <div class="icons-header2cc">
-                                <span class="span__headerLogin2">Lorem ipsum dolor sit amet</span>
-                                <DropdownButton drop='start' align="start" id="custom-dropdown-toggle" title="...">
-                                    <Dropdown.Item href="#/action-1">Sort by name course</Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">Sort by last access</Dropdown.Item>
-                                </DropdownButton>
-                            </div>
-                        </div>
+                                        <span class="span__headerLogin2"><span class="pepito">NameSubject:</span> {item.moreInfoAboutCourse.map((item) => item.nameSubject)}</span>
+                                        <p class="span__headerLogin2"> <span class="pepito">Schedule: </span> {item.enrollments.map((item) => item.courseSchedule.dayOfWeek)}</p>
+                                        <p class="span__headerLogin2"><span class="pepito">Time :</span>{item.enrollments.map((item) => item.courseSchedule.time)} HS</p>
+                                        <p class="span__headerLogin2"><span class="pepito">Shift: </span>{item.enrollments.map((item) => item.courseSchedule.shift)} </p>
+                                        {/* <div className="teachers-container">
+                                            <span className="pepito">Teachers:</span>
+                                            <ul className="teachers-list">
+                                                {courses.teacherCourses.map((teacherData) => (
+                                                    <li key={teacherData.id} className="teacher-item">
+                                                        <strong>{teacherData.roleTeacher}:</strong> {teacherData.teacher.firstName} {teacherData.teacher.lastName} - {teacherData.teacher.email}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div> */}
+                                    </div>
+                                </div>
+                            </>
+                        ))}
+
                     </div>
                 </div>
             </div>

@@ -154,86 +154,74 @@
 /* Estilización de la tarjeta */
 .card-header2c {
   width: 350px;
-  height: 300px;
+  min-height: 150px;  /* 🔹 Limita el tamaño mínimo */
+  max-height: 400px;  /* 🔹 Evita que se agrande demasiado */
   border-radius: 15px;
   background: #48e;
   display: flex;
   flex-direction: column;
-  position: relative;
-  overflow: hidden;
-  border: 3px solid #000;
+  justify-content: space-between;
+  /* overflow: hidden; 🔹 Evita que los elementos internos la hagan crecer */
+  border: 5px solid #000;
 }
-  
-  .card-header2c::before {
-    content: "";
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: -40%;
-    left: -20%;
-    border-radius: 50%;
-    border: 35px solid rgba(255, 255, 255, 0.102);
-    transition: all .8s ease;
-    filter: blur(.5rem);
-    /* border: 10px solid #45aa; */
 
-  }
-  
-  .text_header2c {
-    flex-grow: 1;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    font-weight: 900;
-    font-size: 1.2em;
-    justify-content: space-between;
-  }
+/* Asegura que los textos dentro de la tarjeta no la hagan crecer excesivamente */
+.text_header2c {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2em;
+  justify-content: space-between;
+}
 
+.subtitle-header2cc {
+  font-size: .9em;
+  font-weight: 300;
+  border: 1px solid #003A73;
+  width: 25%;
+  text-align: center;
+  background-color: #003A73;
+  border-radius: 5px;
+  /* color: rgba(240, 248, 255, 0.691); */
+}
 
+.icons-header2cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  min-height: 150px;  /* 🔹 Establece un mínimo */
+  max-height: 250px; /* 🔹 Evita que crezca demasiado */
+  overflow-y: auto; /* 🔹 Agrega scroll si es necesario */
+  border-radius: 0px 0px 15px 15px;
+  border: 2px solid #0a3;
+  background-color: #fff;
+}
 
-
-  
-  .subtitle-header2cc {
-    font-size: .9em;
-    font-weight: 300;
-    border: 1px solid #003A73;
-    width: 25%;
-    text-align: center;
-    background-color: #003A73;
-    border-radius: 5px;
-    /* color: rgba(240, 248, 255, 0.691); */
-  }
-  
-  .icons-header2cc {
-    display: flex;
-    /* justify-items: center; */
-    flex-direction: column;
-    align-items: end;
-    justify-content: space-between;
-    width: 100%;
-    height: 60%;
-    border-radius: 0px 0px 15px 15px;
-    /* overflow: hidden; */
-    border: 2px solid #0a3;
-    background-color: #fff;
-
-  }
-  
-
-  .span__headerLogin2{
-    border: 1px solid #500;
-    width: 100%;
-    padding: 5px;
-
-  }
+/* Asegura que los elementos internos no rompan el diseño */
+.span__headerLogin2 {
+  font-size: 18px;
+  white-space: nowrap; /* 🔹 Evita saltos de línea */
+  overflow: hidden;
+  text-overflow: ellipsis; /* 🔹 Muestra "..." si el texto es muy largo */
+}
+.pepito{
+  color:#003A73;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap; /* 🔹 Evita saltos de línea */
+  overflow: hidden;
+  text-overflow: ellipsis; /* 🔹 Muestra "..." si el texto es muy largo */
+}
 
   
 
   
   .card-header2c:hover::before {
     width: 140px;
-    height: 140px;
+    /* height: 140px; */
     top: -30%;
     left: 50%;
     filter: blur(0rem);

@@ -6,6 +6,7 @@ import "../Styles/myCourses.css"
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import HeaderLogin from './HeaderLogin';
 import { Info } from 'lucide-react';
+import { useSelector } from 'react-redux';
 
 
 
@@ -28,12 +29,24 @@ export default function MyCourses() {
         }));
     };
 
+    const { isLoggedIn, name, token, email, status,courses } = useSelector((state) => state.authenticateUser)
 
 
+console.log(courses);
 
+    // if (!isLoggedIn) {
+    //     return navigate("/login");
+    // }
 
+    // useEffect(() => {
+    //     if (!isLoggedIn) {
+    //         navigate('/login'); // O redirigir a '/' si prefieres
+    //     }
+    // }, [isLoggedIn, navigate]);
 
-
+    // if (!isLoggedIn) {
+    //     return null; // Retornamos null mientras redirige
+    // }
 
     // useEffect(()=>{
     //     console.log("se ejecuto el useEffect");
@@ -71,7 +84,7 @@ export default function MyCourses() {
             }}>
                 <HeaderLogin />
 
-                <h1 class='h1_login__2header2'>¡ Hello,Matias Soria !👋</h1>
+                <h1 class='h1_login__2header2'>¡ Hello,{name} !👋</h1>
                 <div class='div__1--header2'>
                     <h2 class='h2__header2'>
                         Course Overview

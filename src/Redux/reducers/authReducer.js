@@ -1,4 +1,5 @@
 import { createReducer } from "@reduxjs/toolkit"
+import { authenticateUser, currentUser, logoutUser } from "../actions/authAction"
 
 const initialState = {
 
@@ -80,6 +81,41 @@ const authReducer = createReducer(initialState, (builder) => {
 
             return newState
         })
+
+        .addCase(logoutUser.pending,(state)=>{
+            return{
+                ...state,
+                status: "pending",
+                loading: true,
+                error: null,
+            }
+        })
+
+        .addCase(logoutUser.fulfilled,(state,action)=>{
+
+            return{
+                ...state,
+                isLoggedIn: false,
+                token: null,
+                email: null,
+                name: null,
+                courses: [],
+                status: "succeeded",
+                loading: false,
+            }
+        })
+
+         // Estado cuando el cierre de sesión falla (rejected)
+        .addCase(logoutUser.rejected, (state, action) => {
+            return {
+                ...state,
+                status: "failed",
+                loading: false,
+                error: action.payload || 'Error logging out',
+            };
+        });
+
+
 })
 
 

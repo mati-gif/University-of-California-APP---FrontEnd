@@ -75,6 +75,22 @@ export const currentUser = createAsyncThunk("currentUser" , async(_,{rejectWithV
         }
 
     } catch(error){
+        console.log("entro por el catch y este es el error del back", error);
+
+        const errorBack = error.response.data
+        console.log("este es el string del error del back", errorBack);
+
+        return rejectWithValue(errorBack);
+    }
+})
+
+export const logoutUser = createAsyncThunk("logoutUser",async (_,{rejectWithValue}) =>{
+
+    try{
+
+        localStorage.removeItem("token")
+    }catch(error){
+        return rejectWithValue(error.response ? error.response.data : error.message);
 
     }
 })

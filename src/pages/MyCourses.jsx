@@ -136,21 +136,21 @@ export default function MyCourses() {
                                     </div>
 
                                     <div class="icons-header2cc">
-
                                         <span class="span__headerLogin2"><span class="pepito">NameSubject:</span> {item.moreInfoAboutCourse.map((item) => item.nameSubject)}</span>
                                         <p class="span__headerLogin2"> <span class="pepito">Schedule: </span> {item.enrollments.map((item) => item.courseSchedule.dayOfWeek)}</p>
-                                        <p class="span__headerLogin2"><span class="pepito">Time :</span>{item.enrollments.map((item) => item.courseSchedule.time)} HS</p>
+                                        <p class="span__headerLogin2"><span class="pepito">Time: </span>{item.enrollments.map((item) => item.courseSchedule.time)} HS</p>
                                         <p class="span__headerLogin2"><span class="pepito">Shift: </span>{item.enrollments.map((item) => item.courseSchedule.shift)} </p>
-                                        {/* <div className="teachers-container">
-                                            <span className="pepito">Teachers:</span>
-                                            <ul className="teachers-list">
-                                                {courses.teacherCourses.map((teacherData) => (
-                                                    <li key={teacherData.id} className="teacher-item">
+                                        <p class="span__headerLogin2"><span class="pepito">Status: </span>{item.status} </p>
+                                        <div class="teachers-container">
+                                            <span class="pepito">Teachers:</span>
+                                            <ul class="teachers-list">
+                                                {item.teacherCourses.map((teacherData) => (
+                                                    <li key={teacherData.id} class="teacher-item">
                                                         <strong>{teacherData.roleTeacher}:</strong> {teacherData.teacher.firstName} {teacherData.teacher.lastName} - {teacherData.teacher.email}
                                                     </li>
                                                 ))}
                                             </ul>
-                                        </div> */}
+                                        </div>
                                     </div>
                                 </div>
                             </>

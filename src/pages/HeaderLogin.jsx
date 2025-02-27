@@ -13,7 +13,7 @@ function HeaderLogin() {
     const navigate = useNavigate();
     const dispatch = useDispatch()
     // Función que determina si el enlace está activo según la ruta
-    const isActive = (hash) => location.hash === hash;
+    const isActive = (path) => location.pathname === path || location.hash === path;
     // Verificar si Home está activo
     const isActive2 = () => location.pathname === "/myCourses" && (!location.hash || location.hash === "#");
 
@@ -87,8 +87,9 @@ function HeaderLogin() {
                     {/* Enlaces de navegación (centrados) */}
                     <div class="div__buttons__header_2 d-flex justify-content-center w-100">
                         <Nav.Link
-                            href=""
-                            className={`text-black fs-5 ${isActive("/") || hovered === 0
+                            onClick={() => handleSectionClick("/paginaPrincipal")}
+                            href="/paginaPrincipal"
+                            className={`text-black fs-5 ${isActive("/paginaPrincipal") || hovered === 0
                                 ? "border-bottom border-black"
                                 : ""
                                 }`}
